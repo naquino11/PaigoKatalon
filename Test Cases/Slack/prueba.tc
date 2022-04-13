@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>prueba</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6b10189-d590-45c8-8a56-8ab707dee33c</testCaseGuid>
+   <variable>
+      <defaultValue>'nicolas.aquino@paigo.com.uy'</defaultValue>
+      <description></description>
+      <id>e6a30b90-9ad6-4d57-864f-22101cb1d48e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'094040738Qwert'</defaultValue>
+      <description></description>
+      <id>6ff54875-23f5-441b-87c4-def3fb4ccaed</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

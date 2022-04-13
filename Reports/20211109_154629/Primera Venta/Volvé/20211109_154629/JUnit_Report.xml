@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Volvé" time="78.458" tests="3" failures="0" errors="0">
+   <testsuite name="Volvé" tests="3" failures="0" errors="0" time="78.458" skipped="0" timestamp="2021-11-09 15:46:36" hostname="nicolas.aquino - ip-192-168-1-7.ec2.internal" id="Test Suites/Primera Venta/Volvé">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211109_154629\\Primera Venta\\Volv\u00E9\\20211109_154629"/>
+         <property name="logFiles" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211109_154629\\Primera Venta\\Volv\u00E9\\20211109_154629\\execution0.log"/>
+         <property name="attachments" value="C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\29219246\1_CedulaGenerada.jpg, C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\29219246\2_FlujoVolve.jpg"/>
+         <property name="hostName" value="nicolas.aquino - ip-192-168-1-7.ec2.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="af9166a97f1d8f9104d157523b2273b3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/General/Generar Cedula Random" time="4.811" classname="Test Cases/General/Generar Cedula Random" status="PASSED">
+         <system-out><![CDATA[2021-11-09 15:46:36 - [TEST_CASE][PASSED] - Test Cases/General/Generar Cedula Random: Test Cases/General/Generar Cedula Random
+
+2021-11-09 15:46:36 - [TEST_STEP][PASSED] - openBrowser("https://picandocodigo.github.io/ci_js/"): Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-11-09 15:46:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-09 15:46:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-09 15:46:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-11-09 15:46:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-09 15:46:39 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-09 15:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-11-09 15:46:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-11-09 15:46:40 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '29219246'
+
+2021-11-09 15:46:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '29219246'
+
+2021-11-09 15:46:40 - [TEST_STEP][PASSED] - while (cedulaRandom >= "60000000"): null
+
+2021-11-09 15:46:40 - [TEST_STEP][PASSED] - takeScreenshot(C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\1_CedulaGenerada.jpg): Taking screenshot successfully
+
+2021-11-09 15:46:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\29219246\1_CedulaGenerada.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Volve/VV - Flujo Web" time="65.293" classname="Test Cases/Volve/VV - Flujo Web" status="PASSED">
+         <system-out><![CDATA[2021-11-09 15:46:41 - [TEST_CASE][PASSED] - Test Cases/Volve/VV - Flujo Web: Test Cases/Volve/VV - Flujo Web
+
+2021-11-09 15:46:41 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-11-09 15:46:41 - [MESSAGE][PASSED] - Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-11-09 15:46:41 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2021-11-09 15:46:41 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2021-11-09 15:46:41 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-09 15:46:41 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-11-09 15:46:41 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-11-09 15:46:41 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2021-11-09 15:46:41 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-11-09 15:46:41 - [TEST_STEP][PASSED] - navigateToUrl(Volve): Navigate to 'https://dev-www.volve.com.uy' successfully
+
+2021-11-09 15:46:46 - [MESSAGE][PASSED] - Navigate to 'https://dev-www.volve.com.uy' successfully
+
+2021-11-09 15:46:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Inicio/button_Quiero intentarlo"), STOP_ON_FAILURE): Object: 'Object Repository/Volve/Inicio/button_Quiero intentarlo' is clicked on
+
+2021-11-09 15:46:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Inicio/button_Quiero intentarlo' is clicked on
+
+2021-11-09 15:46:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-09 15:46:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-09 15:46:48 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Inicio/button_Comenzar")): Object: 'Object Repository/Volve/Inicio/button_Comenzar' is clicked on
+
+2021-11-09 15:46:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Inicio/button_Comenzar' is clicked on
+
+2021-11-09 15:46:48 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 1/input_Cedula"), cedulaRandom): Text '29219246' is set on object 'Object Repository/Volve/Flujo 1/input_Cedula'
+
+2021-11-09 15:46:50 - [MESSAGE][PASSED] - Text '29219246' is set on object 'Object Repository/Volve/Flujo 1/input_Cedula'
+
+2021-11-09 15:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 1/input_Celular"), celular): Text '094040738' is set on object 'Object Repository/Volve/Flujo 1/input_Celular'
+
+2021-11-09 15:46:50 - [MESSAGE][PASSED] - Text '094040738' is set on object 'Object Repository/Volve/Flujo 1/input_Celular'
+
+2021-11-09 15:46:50 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 1/input_Telefono"), findTestData("DatosUsuario").getValue(2, 4)): Text '22222222' is set on object 'Object Repository/Volve/Flujo 1/input_Telefono'
+
+2021-11-09 15:46:51 - [MESSAGE][PASSED] - Text '22222222' is set on object 'Object Repository/Volve/Flujo 1/input_Telefono'
+
+2021-11-09 15:46:51 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 1/input_TelefonoContacto"), telefonoContacto): Text '094123123' is set on object 'Object Repository/Volve/Flujo 1/input_TelefonoContacto'
+
+2021-11-09 15:46:52 - [MESSAGE][PASSED] - Text '094123123' is set on object 'Object Repository/Volve/Flujo 1/input_TelefonoContacto'
+
+2021-11-09 15:46:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Volve/Flujo 1/select_RelacionContacto"), "Friend", false): All options with value 'Friend' are selected in object 'Object Repository/Volve/Flujo 1/select_RelacionContacto' 
+
+2021-11-09 15:46:53 - [MESSAGE][PASSED] - All options with value 'Friend' are selected in object 'Object Repository/Volve/Flujo 1/select_RelacionContacto' 
+
+2021-11-09 15:46:53 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 1/input_TyC")): Object: 'Object Repository/Volve/Flujo 1/input_TyC' is clicked on
+
+2021-11-09 15:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 1/input_TyC' is clicked on
+
+2021-11-09 15:46:53 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 1/div_Siguiente")): Object: 'Object Repository/Volve/Flujo 1/div_Siguiente' is clicked on
+
+2021-11-09 15:46:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 1/div_Siguiente' is clicked on
+
+2021-11-09 15:46:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Volve/Flujo 2/input_Nombre"), 0): Object 'Object Repository/Volve/Flujo 2/input_Nombre' is visible
+
+2021-11-09 15:46:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-09 15:46:55 - [MESSAGE][PASSED] - Object 'Object Repository/Volve/Flujo 2/input_Nombre' is visible
+
+2021-11-09 15:46:55 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 2/input_Nombre"), findTestData("DatosUsuario").getValue(2, 7)): Text 'Nicolas' is set on object 'Object Repository/Volve/Flujo 2/input_Nombre'
+
+2021-11-09 15:46:55 - [MESSAGE][PASSED] - Text 'Nicolas' is set on object 'Object Repository/Volve/Flujo 2/input_Nombre'
+
+2021-11-09 15:46:55 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 2/input_Apellido"), findTestData("DatosUsuario").getValue(2, 8)): Text 'Aquino' is set on object 'Object Repository/Volve/Flujo 2/input_Apellido'
+
+2021-11-09 15:46:56 - [MESSAGE][PASSED] - Text 'Aquino' is set on object 'Object Repository/Volve/Flujo 2/input_Apellido'
+
+2021-11-09 15:46:56 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 2/input_Email"), findTestData("DatosUsuario").getValue(2, 6)): Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/Volve/Flujo 2/input_Email'
+
+2021-11-09 15:46:57 - [MESSAGE][PASSED] - Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/Volve/Flujo 2/input_Email'
+
+2021-11-09 15:46:57 - [TEST_STEP][PASSED] - delay(0.5): Delayed 0,5 second(s)
+
+2021-11-09 15:46:57 - [MESSAGE][PASSED] - Delayed 0,5 second(s)
+
+2021-11-09 15:46:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Volve/Flujo 2/input_Email"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Volve/Flujo 2/input_Email'
+
+2021-11-09 15:46:58 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Volve/Flujo 2/input_Email'
+
+2021-11-09 15:46:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-09 15:46:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-09 15:46:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Volve/Flujo 2/select_Dia"), "14", false): All options with value '14' are selected in object 'Object Repository/Volve/Flujo 2/select_Dia' 
+
+2021-11-09 15:46:59 - [MESSAGE][PASSED] - All options with value '14' are selected in object 'Object Repository/Volve/Flujo 2/select_Dia' 
+
+2021-11-09 15:46:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Volve/Flujo 2/select_Mes"), "1", false): All options with value '1' are selected in object 'Object Repository/Volve/Flujo 2/select_Mes' 
+
+2021-11-09 15:47:00 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Volve/Flujo 2/select_Mes' 
+
+2021-11-09 15:47:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Volve/Flujo 2/select_Anio"), "1970", false): All options with value '1970' are selected in object 'Object Repository/Volve/Flujo 2/select_Anio' 
+
+2021-11-09 15:47:01 - [MESSAGE][PASSED] - All options with value '1970' are selected in object 'Object Repository/Volve/Flujo 2/select_Anio' 
+
+2021-11-09 15:47:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Volve/Flujo 2/select_Anio"), Keys.chord(TAB, ARROW_DOWN)): Keys 'TAB + DOWN + ' sent to object: 'Object Repository/Volve/Flujo 2/select_Anio'
+
+2021-11-09 15:47:01 - [MESSAGE][PASSED] - Keys 'TAB + DOWN + ' sent to object: 'Object Repository/Volve/Flujo 2/select_Anio'
+
+2021-11-09 15:47:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Volve/Flujo 2/select_Departamento"), Keys.chord(TAB, ARROW_DOWN)): Keys 'TAB + DOWN + ' sent to object: 'Object Repository/Volve/Flujo 2/select_Departamento'
+
+2021-11-09 15:47:02 - [MESSAGE][PASSED] - Keys 'TAB + DOWN + ' sent to object: 'Object Repository/Volve/Flujo 2/select_Departamento'
+
+2021-11-09 15:47:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Volve/Flujo 2/select_Genero"), "Male", false): All options with value 'Male' are selected in object 'Object Repository/Volve/Flujo 2/select_Genero' 
+
+2021-11-09 15:47:02 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/Volve/Flujo 2/select_Genero' 
+
+2021-11-09 15:47:02 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 2/div_Siguiente")): Object: 'Object Repository/Volve/Flujo 2/div_Siguiente' is clicked on
+
+2021-11-09 15:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 2/div_Siguiente' is clicked on
+
+2021-11-09 15:47:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Volve/Flujo 3/select_Ocupacion"), 0): Object 'Object Repository/Volve/Flujo 3/select_Ocupacion' is visible
+
+2021-11-09 15:47:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-09 15:47:04 - [MESSAGE][PASSED] - Object 'Object Repository/Volve/Flujo 3/select_Ocupacion' is visible
+
+2021-11-09 15:47:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Volve/Flujo 3/select_Ocupacion"), "TrabajoJornadaCompleta", false): All options with value 'TrabajoJornadaCompleta' are selected in object 'Object Repository/Volve/Flujo 3/select_Ocupacion' 
+
+2021-11-09 15:47:05 - [MESSAGE][PASSED] - All options with value 'TrabajoJornadaCompleta' are selected in object 'Object Repository/Volve/Flujo 3/select_Ocupacion' 
+
+2021-11-09 15:47:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Volve/Flujo 3/select_tiempoOcupacion"), "0a3", false): All options with value '0a3' are selected in object 'Object Repository/Volve/Flujo 3/select_tiempoOcupacion' 
+
+2021-11-09 15:47:05 - [MESSAGE][PASSED] - All options with value '0a3' are selected in object 'Object Repository/Volve/Flujo 3/select_tiempoOcupacion' 
+
+2021-11-09 15:47:05 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 3/input_Ingresos"), "5000"): Text '5000' is set on object 'Object Repository/Volve/Flujo 3/input_Ingresos'
+
+2021-11-09 15:47:06 - [MESSAGE][PASSED] - Text '5000' is set on object 'Object Repository/Volve/Flujo 3/input_Ingresos'
+
+2021-11-09 15:47:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Volve/Flujo 3/select_PersonasACargo"), "false", false): All options with value 'false' are selected in object 'Object Repository/Volve/Flujo 3/select_PersonasACargo' 
+
+2021-11-09 15:47:07 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Volve/Flujo 3/select_PersonasACargo' 
+
+2021-11-09 15:47:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 3/div_Siguiente")): Object: 'Object Repository/Volve/Flujo 3/div_Siguiente' is clicked on
+
+2021-11-09 15:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 3/div_Siguiente' is clicked on
+
+2021-11-09 15:47:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Volve/Flujo 4/div_Siguiente"), 0): Object 'Object Repository/Volve/Flujo 4/div_Siguiente' is visible
+
+2021-11-09 15:47:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-09 15:47:18 - [MESSAGE][PASSED] - Object 'Object Repository/Volve/Flujo 4/div_Siguiente' is visible
+
+2021-11-09 15:47:18 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 4/div_Siguiente")): Object: 'Object Repository/Volve/Flujo 4/div_Siguiente' is clicked on
+
+2021-11-09 15:47:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 4/div_Siguiente' is clicked on
+
+2021-11-09 15:47:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Volve/Flujo 4/select_Vencimiento"), 0): Object 'Object Repository/Volve/Flujo 4/select_Vencimiento' is visible
+
+2021-11-09 15:47:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-09 15:47:20 - [MESSAGE][PASSED] - Object 'Object Repository/Volve/Flujo 4/select_Vencimiento' is visible
+
+2021-11-09 15:47:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Volve/Flujo 4/a_Preguntas frecuentes"), Keys.chord(TAB, ARROW_DOWN), STOP_ON_FAILURE): Keys 'TAB + DOWN + ' sent to object: 'Object Repository/Volve/Flujo 4/a_Preguntas frecuentes'
+
+2021-11-09 15:47:20 - [MESSAGE][PASSED] - Keys 'TAB + DOWN + ' sent to object: 'Object Repository/Volve/Flujo 4/a_Preguntas frecuentes'
+
+2021-11-09 15:47:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Volve/Flujo 4/select_Banco"), 0): Object 'Object Repository/Volve/Flujo 4/select_Banco' is visible
+
+2021-11-09 15:47:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-09 15:47:25 - [MESSAGE][PASSED] - Object 'Object Repository/Volve/Flujo 4/select_Banco' is visible
+
+2021-11-09 15:47:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Volve/Flujo 4/select_Vencimiento"), Keys.chord(TAB, ARROW_DOWN), STOP_ON_FAILURE): Keys 'TAB + DOWN + ' sent to object: 'Object Repository/Volve/Flujo 4/select_Vencimiento'
+
+2021-11-09 15:47:25 - [MESSAGE][PASSED] - Keys 'TAB + DOWN + ' sent to object: 'Object Repository/Volve/Flujo 4/select_Vencimiento'
+
+2021-11-09 15:47:25 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 4/input_CuentaBancaria"), findTestData("DatosUsuario").getValue(2, 10)): Text '1234567' is set on object 'Object Repository/Volve/Flujo 4/input_CuentaBancaria'
+
+2021-11-09 15:47:26 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Volve/Flujo 4/input_CuentaBancaria'
+
+2021-11-09 15:47:26 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 4/input_TyC")): Object: 'Object Repository/Volve/Flujo 4/input_TyC' is clicked on
+
+2021-11-09 15:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 4/input_TyC' is clicked on
+
+2021-11-09 15:47:28 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 4/div_Siguiente")): Object: 'Object Repository/Volve/Flujo 4/div_Siguiente' is clicked on
+
+2021-11-09 15:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 4/div_Siguiente' is clicked on
+
+2021-11-09 15:47:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Volve/Flujo 4/a_ConfirmarCredito"), 0): Object 'Object Repository/Volve/Flujo 4/a_ConfirmarCredito' is visible
+
+2021-11-09 15:47:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-09 15:47:31 - [MESSAGE][PASSED] - Object 'Object Repository/Volve/Flujo 4/a_ConfirmarCredito' is visible
+
+2021-11-09 15:47:31 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 4/a_ConfirmarCredito")): Object: 'Object Repository/Volve/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-11-09 15:47:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-11-09 15:47:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Volve/Flujo 5/input_CodigoSMS"), 0): Object 'Object Repository/Volve/Flujo 5/input_CodigoSMS' is visible
+
+2021-11-09 15:47:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-09 15:47:33 - [MESSAGE][PASSED] - Object 'Object Repository/Volve/Flujo 5/input_CodigoSMS' is visible
+
+2021-11-09 15:47:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Volve/Flujo 4/div_Siguiente"), 0): Object 'Object Repository/Volve/Flujo 4/div_Siguiente' is visible
+
+2021-11-09 15:47:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-09 15:47:45 - [MESSAGE][PASSED] - Object 'Object Repository/Volve/Flujo 4/div_Siguiente' is visible
+
+2021-11-09 15:47:45 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 4/div_Siguiente")): Object: 'Object Repository/Volve/Flujo 4/div_Siguiente' is clicked on
+
+2021-11-09 15:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 4/div_Siguiente' is clicked on
+
+2021-11-09 15:47:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot(C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoVolve.jpg): Taking screenshot successfully
+
+2021-11-09 15:47:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-11-09 15:47:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\29219246\2_FlujoVolve.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Logueo" time="8.048" classname="Test Cases/Admin/Logueo" status="PASSED">
+         <system-out><![CDATA[2021-11-09 15:47:46 - [TEST_CASE][PASSED] - Test Cases/Admin/Logueo: Test Cases/Admin/Logueo
+
+2021-11-09 15:47:46 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://dev-www.volve.com.uy/verificacion-sms2'
+
+2021-11-09 15:47:46 - [MESSAGE][PASSED] - Current window's url is: 'https://dev-www.volve.com.uy/verificacion-sms2'
+
+2021-11-09 15:47:46 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 1
+
+2021-11-09 15:47:46 - [MESSAGE][PASSED] - Current window's index is: 1
+
+2021-11-09 15:47:46 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-09 15:47:46 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-11-09 15:47:46 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-11-09 15:47:46 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '2'
+
+2021-11-09 15:47:46 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2021-11-09 15:47:46 - [TEST_STEP][PASSED] - navigateToUrl(Admin): Navigate to 'https://dev-admin-int.paigo.uy/login' successfully
+
+2021-11-09 15:47:52 - [MESSAGE][PASSED] - Navigate to 'https://dev-admin-int.paigo.uy/login' successfully
+
+2021-11-09 15:47:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-09 15:47:52 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-09 15:47:52 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Logueo/input_Usuario"), findTestData("DatosUsuario").getValue(2, 1)): Text 'gabriel.gayol@paigo.com.uy' is set on object 'Object Repository/Admin/Logueo/input_Usuario'
+
+2021-11-09 15:47:53 - [MESSAGE][PASSED] - Text 'gabriel.gayol@paigo.com.uy' is set on object 'Object Repository/Admin/Logueo/input_Usuario'
+
+2021-11-09 15:47:53 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Logueo/input_Contrasena"), findTestData("DatosUsuario").getValue(2, 2)): Text '12345678' is set on object 'Object Repository/Admin/Logueo/input_Contrasena'
+
+2021-11-09 15:47:54 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Admin/Logueo/input_Contrasena'
+
+2021-11-09 15:47:54 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Logueo/button_Ingresar")): Object: 'Object Repository/Admin/Logueo/button_Ingresar' is clicked on
+
+2021-11-09 15:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Logueo/button_Ingresar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-09 15:46:36 - [TEST_SUITE][PASSED] - Volvé: Test Cases/Admin/Logueo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>prueba - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07cc00f0-de70-4862-8085-a10e8d1143b4</testCaseGuid>
+   <variable>
+      <defaultValue>'nicolas.aquino@paigo.com.uy'</defaultValue>
+      <description></description>
+      <id>3fb04150-611a-49fd-bd54-e70dd717112b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'094040738Qwert'</defaultValue>
+      <description></description>
+      <id>8367d4fe-d7ed-407a-9dac-71710a90de86</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d34d576c-beed-4bb7-a7bb-2d23d92e973a</id>
+      <masked>false</masked>
+      <name>cedulas</name>
+   </variable>
+</TestCaseEntity>

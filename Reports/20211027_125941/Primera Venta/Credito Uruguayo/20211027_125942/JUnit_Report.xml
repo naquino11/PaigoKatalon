@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Credito Uruguayo" time="8.23" tests="2" failures="0" errors="1">
+   <testsuite name="Credito Uruguayo" tests="2" failures="0" errors="1" time="8.23" skipped="0" timestamp="2021-10-27 12:59:55" hostname="nicolas.aquino - ip-192-168-0-142.ec2.internal" id="Test Suites/Primera Venta/Credito Uruguayo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211027_125941\\Primera Venta\\Credito Uruguayo\\20211027_125942"/>
+         <property name="logFiles" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211027_125941\\Primera Venta\\Credito Uruguayo\\20211027_125942\\execution0.log"/>
+         <property name="attachments" value="C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\33676076\1_CedulaGenerada.jpg"/>
+         <property name="hostName" value="nicolas.aquino - ip-192-168-0-142.ec2.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.0.142"/>
+         <property name="sessionId" value="0290827675b24fa36b69ad0437dc4d7b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/General/Generar Cedula Random" time="7.956" classname="Test Cases/General/Generar Cedula Random" status="PASSED">
+         <system-out><![CDATA[2021-10-27 12:59:55 - [TEST_CASE][PASSED] - Test Cases/General/Generar Cedula Random: Test Cases/General/Generar Cedula Random
+
+2021-10-27 12:59:56 - [TEST_STEP][PASSED] - openBrowser("https://picandocodigo.github.io/ci_js/"): Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-27 12:59:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-27 12:59:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-27 12:59:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-27 12:59:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-27 12:59:58 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-27 12:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 12:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 12:59:58 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '69839666'
+
+2021-10-27 12:59:59 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '69839666'
+
+2021-10-27 12:59:59 - [TEST_STEP][PASSED] - while (cedulaRandom >= "60000000"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '33676076'
+
+2021-10-27 12:59:59 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 12:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 12:59:59 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '81961312'
+
+2021-10-27 13:00:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '81961312'
+
+2021-10-27 13:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 13:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 13:00:00 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '71055450'
+
+2021-10-27 13:00:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '71055450'
+
+2021-10-27 13:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 13:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 13:00:01 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '93366188'
+
+2021-10-27 13:00:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '93366188'
+
+2021-10-27 13:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 13:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 13:00:01 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '70229886'
+
+2021-10-27 13:00:02 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '70229886'
+
+2021-10-27 13:00:02 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 13:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-27 13:00:02 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '33676076'
+
+2021-10-27 13:00:02 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '33676076'
+
+2021-10-27 13:00:02 - [TEST_STEP][PASSED] - takeFullPageScreenshot(C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\1_CedulaGenerada.jpg): Taking screenshot successfully
+
+2021-10-27 13:00:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-10-27 13:00:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\33676076\1_CedulaGenerada.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreditoUruguayo/CU - Flujo Web" time="0.028" classname="Test Cases/CreditoUruguayo/CU - Flujo Web" status="ERROR">
+         <error type="ERROR" message="Test Cases/CreditoUruguayo/CU - Flujo Web has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350403749.groovy: 158: unexpected char: '\' @ line 158, column 33.
+   WebUI.takeFullPageScreenshot(&quot;C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoCreditoUruguayo.jpg&quot;)
+                                   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2021-10-27 13:00:03 - [TEST_CASE][ERROR] - Test Cases/CreditoUruguayo/CU - Flujo Web: Test Cases/CreditoUruguayo/CU - Flujo Web has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350403749.groovy: 158: unexpected char: '\' @ line 158, column 33.
+   WebUI.takeFullPageScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoCreditoUruguayo.jpg")
+                                   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2021-10-27 13:00:03 - [TEST_CASE][ERROR] - Test Cases/CreditoUruguayo/CU - Flujo Web: Test Cases/CreditoUruguayo/CU - Flujo Web has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350403749.groovy: 158: unexpected char: '\' @ line 158, column 33.
+   WebUI.takeFullPageScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoCreditoUruguayo.jpg")
+                                   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-27 12:59:55 - [TEST_SUITE][ERROR] - Credito Uruguayo: Test Cases/CreditoUruguayo/CU - Flujo Web has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350403749.groovy: 158: unexpected char: '\' @ line 158, column 33.
+   WebUI.takeFullPageScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoCreditoUruguayo.jpg")
+                                   ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2021-10-27 12:59:55 - [TEST_SUITE][ERROR] - Credito Uruguayo: Test Cases/CreditoUruguayo/CU - Flujo Web has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350403749.groovy: 158: unexpected char: '\' @ line 158, column 33.
+   WebUI.takeFullPageScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoCreditoUruguayo.jpg")
+                                   ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

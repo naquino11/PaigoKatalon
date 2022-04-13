@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Credito Uruguayo" time="185.726" tests="6" failures="0" errors="0">
+   <testsuite name="Credito Uruguayo" tests="6" failures="0" errors="0" time="185.726" skipped="0" timestamp="2021-10-20 15:34:09" hostname="nicolas.aquino - ip-192-168-0-142.ec2.internal" id="Test Suites/Primera Venta/Credito Uruguayo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211020_153401\\Primera Venta\\Credito Uruguayo\\20211020_153402"/>
+         <property name="logFiles" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211020_153401\\Primera Venta\\Credito Uruguayo\\20211020_153402\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211020_153401\\Primera Venta\\Credito Uruguayo\\20211020_153402\\1634754904211.png"/>
+         <property name="hostName" value="nicolas.aquino - ip-192-168-0-142.ec2.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.0.142"/>
+         <property name="sessionId" value="2fe7b74c713f22a70e9db3f237399909"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/General/Generar cedula random" time="3.679" classname="Test Cases/General/Generar cedula random" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:34:09 - [TEST_CASE][PASSED] - Test Cases/General/Generar cedula random: Test Cases/General/Generar cedula random
+
+2021-10-20 15:34:09 - [TEST_STEP][PASSED] - openBrowser("https://picandocodigo.github.io/ci_js/"): Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-20 15:34:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-20 15:34:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-20 15:34:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-20 15:34:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-20 15:34:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-20 15:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-20 15:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-20 15:34:12 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '42341169'
+
+2021-10-20 15:34:13 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '42341169']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreditoUruguayo/CU - Flujo Web" time="80.053" classname="Test Cases/CreditoUruguayo/CU - Flujo Web" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:34:13 - [TEST_CASE][PASSED] - Test Cases/CreditoUruguayo/CU - Flujo Web: Test Cases/CreditoUruguayo/CU - Flujo Web
+
+2021-10-20 15:34:13 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-20 15:34:13 - [MESSAGE][PASSED] - Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-20 15:34:13 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2021-10-20 15:34:13 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2021-10-20 15:34:13 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-10-20 15:34:13 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-10-20 15:34:13 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-10-20 15:34:13 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2021-10-20 15:34:13 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-10-20 15:34:13 - [TEST_STEP][PASSED] - navigateToUrl(CreditoUruguayo): Navigate to 'https://dev-www.creditouruguayo.com.uy' successfully
+
+2021-10-20 15:34:17 - [MESSAGE][PASSED] - Navigate to 'https://dev-www.creditouruguayo.com.uy' successfully
+
+2021-10-20 15:34:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Inicio/a_InicioFlujo"), 0): Object 'Object Repository/CreditoUruguayo/Inicio/a_InicioFlujo' is present
+
+2021-10-20 15:34:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:34:17 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Inicio/a_InicioFlujo' is present
+
+2021-10-20 15:34:17 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Inicio/a_InicioFlujo")): Object: 'Object Repository/CreditoUruguayo/Inicio/a_InicioFlujo' is clicked on
+
+2021-10-20 15:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Inicio/a_InicioFlujo' is clicked on
+
+2021-10-20 15:34:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 1/input_Cedula"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 1/input_Cedula' is present
+
+2021-10-20 15:34:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:34:19 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 1/input_Cedula' is present
+
+2021-10-20 15:34:19 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 1/input_Cedula"), cedulaRandom): Text '42341169' is set on object 'Object Repository/CreditoUruguayo/Flujo 1/input_Cedula'
+
+2021-10-20 15:34:20 - [MESSAGE][PASSED] - Text '42341169' is set on object 'Object Repository/CreditoUruguayo/Flujo 1/input_Cedula'
+
+2021-10-20 15:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 1/input_Celular"), findTestData("DatosUsuario").getValue(2, 3)): Text '94040738' is set on object 'Object Repository/CreditoUruguayo/Flujo 1/input_Celular'
+
+2021-10-20 15:34:21 - [MESSAGE][PASSED] - Text '94040738' is set on object 'Object Repository/CreditoUruguayo/Flujo 1/input_Celular'
+
+2021-10-20 15:34:21 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 1/input_TyC")): Object: 'Object Repository/CreditoUruguayo/Flujo 1/input_TyC' is clicked on
+
+2021-10-20 15:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 1/input_TyC' is clicked on
+
+2021-10-20 15:34:21 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 1/button_Continuar-1")): Object: 'Object Repository/CreditoUruguayo/Flujo 1/button_Continuar-1' is clicked on
+
+2021-10-20 15:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 1/button_Continuar-1' is clicked on
+
+2021-10-20 15:34:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 2/input_Nombre"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 2/input_Nombre' is present
+
+2021-10-20 15:34:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 2/input_Nombre' is present
+
+2021-10-20 15:34:23 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 2/input_Nombre"), findTestData("DatosUsuario").getValue(2, 7)): Text 'Nicolas' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Nombre'
+
+2021-10-20 15:34:24 - [MESSAGE][PASSED] - Text 'Nicolas' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Nombre'
+
+2021-10-20 15:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 2/input_Apellido"), findTestData("DatosUsuario").getValue(2, 8)): Text 'Aquino' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Apellido'
+
+2021-10-20 15:34:25 - [MESSAGE][PASSED] - Text 'Aquino' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Apellido'
+
+2021-10-20 15:34:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CreditoUruguayo/Flujo 2/select_Dia"), "15", false): All options with value '15' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Dia' 
+
+2021-10-20 15:34:25 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Dia' 
+
+2021-10-20 15:34:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CreditoUruguayo/Flujo 2/select_Mes"), "10", false): All options with value '10' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Mes' 
+
+2021-10-20 15:34:26 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Mes' 
+
+2021-10-20 15:34:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CreditoUruguayo/Flujo 2/select_Anio"), "1970", false): All options with value '1970' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Anio' 
+
+2021-10-20 15:34:27 - [MESSAGE][PASSED] - All options with value '1970' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Anio' 
+
+2021-10-20 15:34:27 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2021-10-20 15:34:27 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2021-10-20 15:34:27 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 2/input_Email"), findTestData("DatosUsuario").getValue(2, 6)): Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Email'
+
+2021-10-20 15:34:28 - [MESSAGE][PASSED] - Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Email'
+
+2021-10-20 15:34:28 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2021-10-20 15:34:29 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2021-10-20 15:34:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreditoUruguayo/Flujo 2/emailNoValidoFocus"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 2/emailNoValidoFocus'
+
+2021-10-20 15:34:29 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 2/emailNoValidoFocus'
+
+2021-10-20 15:34:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreditoUruguayo/Flujo 2/input_Email"), Keys.chord(TAB, ARROW_DOWN, ENTER)): Keys 'TAB + DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 2/input_Email'
+
+2021-10-20 15:34:30 - [MESSAGE][PASSED] - Keys 'TAB + DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 2/input_Email'
+
+2021-10-20 15:34:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, TAB, ARROW_DOWN, ENTER)): Keys 'TAB + TAB + DOWN + ENTER + ' sent to object: 'tempBody'
+
+2021-10-20 15:34:30 - [MESSAGE][WARNING] - Test object id is null
+
+2021-10-20 15:34:30 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-10-20 15:34:31 - [MESSAGE][PASSED] - Keys 'TAB + TAB + DOWN + ENTER + ' sent to object: 'tempBody'
+
+2021-10-20 15:34:31 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 2/input_Ingresos"), "12000"): Text '12000' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Ingresos'
+
+2021-10-20 15:34:31 - [MESSAGE][PASSED] - Text '12000' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Ingresos'
+
+2021-10-20 15:34:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CreditoUruguayo/Flujo 2/select_Genero"), "Male", false): All options with value 'Male' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Genero' 
+
+2021-10-20 15:34:32 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Genero' 
+
+2021-10-20 15:34:32 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 2/button_Continuar-2")): Object: 'Object Repository/CreditoUruguayo/Flujo 2/button_Continuar-2' is clicked on
+
+2021-10-20 15:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 2/button_Continuar-2' is clicked on
+
+2021-10-20 15:34:33 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("CreditoUruguayo/Flujo 3/div_SinOferta"), 0, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreditoUruguayo/Flujo 3/div_SinOferta' located by '//div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreditoUruguayo/Flujo 3/div_SinOferta' located by '//div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$12.call(Unknown Source)
+	at CU - Flujo Web.run(CU - Flujo Web:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634754842596.run(TempTestSuite1634754842596.groovy:36)
+)
+
+2021-10-20 15:34:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-20 15:35:04 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreditoUruguayo/Flujo 3/div_SinOferta' located by '//div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreditoUruguayo/Flujo 3/div_SinOferta' located by '//div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$12.call(Unknown Source)
+	at CU - Flujo Web.run(CU - Flujo Web:95)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634754842596.run(TempTestSuite1634754842596.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211020_153401\\Primera Venta\\Credito Uruguayo\\20211020_153402\\1634754904211.png]]
+
+2021-10-20 15:35:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 3/select_FechaVencimiento"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento' is present
+
+2021-10-20 15:35:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:04 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento' is present
+
+2021-10-20 15:35:04 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 3/select_FechaVencimiento")): Object: 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento' is clicked on
+
+2021-10-20 15:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento' is clicked on
+
+2021-10-20 15:35:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreditoUruguayo/Flujo 3/select_FechaVencimiento"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento'
+
+2021-10-20 15:35:05 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento'
+
+2021-10-20 15:35:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 3/select_Cuotas"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas' is present
+
+2021-10-20 15:35:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:16 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas' is present
+
+2021-10-20 15:35:16 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 3/select_Cuotas")): Object: 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas' is clicked on
+
+2021-10-20 15:35:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas' is clicked on
+
+2021-10-20 15:35:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreditoUruguayo/Flujo 3/select_Cuotas"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas'
+
+2021-10-20 15:35:17 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas'
+
+2021-10-20 15:35:17 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 3/input_CuentaBancaria"), findTestData("DatosUsuario").getValue(2, 10)): Text '1234567' is set on object 'Object Repository/CreditoUruguayo/Flujo 3/input_CuentaBancaria'
+
+2021-10-20 15:35:17 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/CreditoUruguayo/Flujo 3/input_CuentaBancaria'
+
+2021-10-20 15:35:17 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 3/button_Continuar-3")): Object: 'Object Repository/CreditoUruguayo/Flujo 3/button_Continuar-3' is clicked on
+
+2021-10-20 15:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 3/button_Continuar-3' is clicked on
+
+2021-10-20 15:35:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 4/a_ConfirmarCredito"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 4/a_ConfirmarCredito' is present
+
+2021-10-20 15:35:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:19 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 4/a_ConfirmarCredito' is present
+
+2021-10-20 15:35:19 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 4/a_ConfirmarCredito")): Object: 'Object Repository/CreditoUruguayo/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-10-20 15:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-10-20 15:35:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 5/input_Direccion"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 5/input_Direccion' is present
+
+2021-10-20 15:35:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:21 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 5/input_Direccion' is present
+
+2021-10-20 15:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 5/input_Direccion"), findTestData("DatosUsuario").getValue(2, 9)): Text 'Calle falsa 123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_Direccion'
+
+2021-10-20 15:35:22 - [MESSAGE][PASSED] - Text 'Calle falsa 123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_Direccion'
+
+2021-10-20 15:35:22 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 5/button_CrearContrasena")): Object: 'Object Repository/CreditoUruguayo/Flujo 5/button_CrearContrasena' is clicked on
+
+2021-10-20 15:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 5/button_CrearContrasena' is clicked on
+
+2021-10-20 15:35:22 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 5/input_Contrasena"), findTestData("DatosUsuario").getValue(2, 11)): Text 'paigo123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_Contrasena'
+
+2021-10-20 15:35:23 - [MESSAGE][PASSED] - Text 'paigo123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_Contrasena'
+
+2021-10-20 15:35:23 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 5/input_ConfirmarContrasena"), findTestData("DatosUsuario").getValue(2, 11)): Text 'paigo123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_ConfirmarContrasena'
+
+2021-10-20 15:35:24 - [MESSAGE][PASSED] - Text 'paigo123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_ConfirmarContrasena'
+
+2021-10-20 15:35:24 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 5/input_TyC-2")): Object: 'Object Repository/CreditoUruguayo/Flujo 5/input_TyC-2' is clicked on
+
+2021-10-20 15:35:24 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 5/input_TyC-2' is clicked on
+
+2021-10-20 15:35:24 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 5/button_Continuar-4")): Object: 'Object Repository/CreditoUruguayo/Flujo 5/button_Continuar-4' is clicked on
+
+2021-10-20 15:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 5/button_Continuar-4' is clicked on
+
+2021-10-20 15:35:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen' is present
+
+2021-10-20 15:35:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:31 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen' is present
+
+2021-10-20 15:35:31 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen")): Object: 'Object Repository/CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen' is clicked on
+
+2021-10-20 15:35:31 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen' is clicked on
+
+2021-10-20 15:35:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 7/a_Finalizar"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 7/a_Finalizar' is present
+
+2021-10-20 15:35:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:32 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 7/a_Finalizar' is present
+
+2021-10-20 15:35:32 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 7/a_Finalizar")): Object: 'Object Repository/CreditoUruguayo/Flujo 7/a_Finalizar' is clicked on
+
+2021-10-20 15:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 7/a_Finalizar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Logueo" time="7.293" classname="Test Cases/Admin/Logueo" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:35:33 - [TEST_CASE][PASSED] - Test Cases/Admin/Logueo: Test Cases/Admin/Logueo
+
+2021-10-20 15:35:33 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://dev-www.creditouruguayo.com.uy/'
+
+2021-10-20 15:35:33 - [MESSAGE][PASSED] - Current window's url is: 'https://dev-www.creditouruguayo.com.uy/'
+
+2021-10-20 15:35:33 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 1
+
+2021-10-20 15:35:33 - [MESSAGE][PASSED] - Current window's index is: 1
+
+2021-10-20 15:35:33 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-10-20 15:35:33 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-10-20 15:35:33 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-10-20 15:35:33 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '2'
+
+2021-10-20 15:35:33 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2021-10-20 15:35:33 - [TEST_STEP][PASSED] - navigateToUrl(Admin): Navigate to 'https://dev-admin-int.paigo.uy/login' successfully
+
+2021-10-20 15:35:38 - [MESSAGE][PASSED] - Navigate to 'https://dev-admin-int.paigo.uy/login' successfully
+
+2021-10-20 15:35:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-20 15:35:38 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-20 15:35:38 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Logueo/input_Usuario"), findTestData("DatosUsuario").getValue(2, 1)): Text 'gabriel.gayol@paigo.com.uy' is set on object 'Object Repository/Admin/Logueo/input_Usuario'
+
+2021-10-20 15:35:39 - [MESSAGE][PASSED] - Text 'gabriel.gayol@paigo.com.uy' is set on object 'Object Repository/Admin/Logueo/input_Usuario'
+
+2021-10-20 15:35:39 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Logueo/input_Contrasena"), findTestData("DatosUsuario").getValue(2, 2)): Text '12345678' is set on object 'Object Repository/Admin/Logueo/input_Contrasena'
+
+2021-10-20 15:35:40 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Admin/Logueo/input_Contrasena'
+
+2021-10-20 15:35:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Logueo/button_Ingresar")): Object: 'Object Repository/Admin/Logueo/button_Ingresar' is clicked on
+
+2021-10-20 15:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Logueo/button_Ingresar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Credito Uruguayo/Activación Cuenta" time="8.975" classname="Test Cases/Admin/Credito Uruguayo/Activación Cuenta" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:35:40 - [TEST_CASE][PASSED] - Test Cases/Admin/Credito Uruguayo/Activación Cuenta: Test Cases/Admin/Credito Uruguayo/Activación Cuenta
+
+2021-10-20 15:35:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Activación Cuenta/p_BUSCAR CLIENTES"), 0): Object 'Object Repository/Admin/Activación Cuenta/p_BUSCAR CLIENTES' is present
+
+2021-10-20 15:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:42 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Activación Cuenta/p_BUSCAR CLIENTES' is present
+
+2021-10-20 15:35:42 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Activación Cuenta/p_BUSCAR CLIENTES")): Object: 'Object Repository/Admin/Activación Cuenta/p_BUSCAR CLIENTES' is clicked on
+
+2021-10-20 15:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Activación Cuenta/p_BUSCAR CLIENTES' is clicked on
+
+2021-10-20 15:35:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Activación Cuenta/input_Cedula"), 0): Object 'Object Repository/Admin/Activación Cuenta/input_Cedula' is present
+
+2021-10-20 15:35:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:43 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Activación Cuenta/input_Cedula' is present
+
+2021-10-20 15:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Activación Cuenta/input_Cedula"), cedulaRandom): Text '42341169' is set on object 'Object Repository/Admin/Activación Cuenta/input_Cedula'
+
+2021-10-20 15:35:44 - [MESSAGE][PASSED] - Text '42341169' is set on object 'Object Repository/Admin/Activación Cuenta/input_Cedula'
+
+2021-10-20 15:35:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Activación Cuenta/select_SeleccionarMarca"), Marca_CU, false): All options with label 'CreditoUruguayo' are selected in object 'Object Repository/Admin/Activación Cuenta/select_SeleccionarMarca' 
+
+2021-10-20 15:35:44 - [MESSAGE][PASSED] - All options with label 'CreditoUruguayo' are selected in object 'Object Repository/Admin/Activación Cuenta/select_SeleccionarMarca' 
+
+2021-10-20 15:35:44 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Activación Cuenta/button_Obtener")): Object: 'Object Repository/Admin/Activación Cuenta/button_Obtener' is clicked on
+
+2021-10-20 15:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Activación Cuenta/button_Obtener' is clicked on
+
+2021-10-20 15:35:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Activación Cuenta/button_Guardar"), 0): Object 'Object Repository/Admin/Activación Cuenta/button_Guardar' is present
+
+2021-10-20 15:35:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:47 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Activación Cuenta/button_Guardar' is present
+
+2021-10-20 15:35:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Activación Cuenta/input_IngresosReferencia"), Keys.chord(TAB, TAB, TAB, SPACE)): Keys 'TAB + TAB + TAB + SPACE + ' sent to object: 'Object Repository/Admin/Activación Cuenta/input_IngresosReferencia'
+
+2021-10-20 15:35:47 - [MESSAGE][PASSED] - Keys 'TAB + TAB + TAB + SPACE + ' sent to object: 'Object Repository/Admin/Activación Cuenta/input_IngresosReferencia'
+
+2021-10-20 15:35:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Activación Cuenta/button_Guardar")): Object: 'Object Repository/Admin/Activación Cuenta/button_Guardar' is clicked on
+
+2021-10-20 15:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Activación Cuenta/button_Guardar' is clicked on
+
+2021-10-20 15:35:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Activación Cuenta/p_ValidacionGuardado")): Object 'Object Repository/Admin/Activación Cuenta/p_ValidacionGuardado' is visible
+
+2021-10-20 15:35:49 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Activación Cuenta/p_ValidacionGuardado' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Credito Uruguayo/Verificación" time="55.95" classname="Test Cases/Admin/Credito Uruguayo/Verificación" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:35:49 - [TEST_CASE][PASSED] - Test Cases/Admin/Credito Uruguayo/Verificación: Test Cases/Admin/Credito Uruguayo/Verificación
+
+2021-10-20 15:35:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Verificacion/p_CreditosEnVerificacion"), 0): Object 'Object Repository/Admin/Verificacion/p_CreditosEnVerificacion' is present
+
+2021-10-20 15:35:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:50 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/p_CreditosEnVerificacion' is present
+
+2021-10-20 15:35:50 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/p_CreditosEnVerificacion")): Object: 'Object Repository/Admin/Verificacion/p_CreditosEnVerificacion' is clicked on
+
+2021-10-20 15:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/p_CreditosEnVerificacion' is clicked on
+
+2021-10-20 15:35:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/select_SeleccionarMarca"), 0): Object 'Object Repository/Admin/Verificacion/select_SeleccionarMarca' is visible
+
+2021-10-20 15:35:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:35:51 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/select_SeleccionarMarca' is visible
+
+2021-10-20 15:35:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Verificacion/select_SeleccionarMarca"), Marca_CU, false): All options with label 'CreditoUruguayo' are selected in object 'Object Repository/Admin/Verificacion/select_SeleccionarMarca' 
+
+2021-10-20 15:35:51 - [MESSAGE][PASSED] - All options with label 'CreditoUruguayo' are selected in object 'Object Repository/Admin/Verificacion/select_SeleccionarMarca' 
+
+2021-10-20 15:35:51 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Obtener")): Object: 'Object Repository/Admin/Verificacion/button_Obtener' is clicked on
+
+2021-10-20 15:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Obtener' is clicked on
+
+2021-10-20 15:35:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/input_FiltrarCI"), 0): Object 'Object Repository/Admin/Verificacion/input_FiltrarCI' is visible
+
+2021-10-20 15:35:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:36:12 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/input_FiltrarCI' is visible
+
+2021-10-20 15:36:12 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Verificacion/input_FiltrarCI"), cedulaRandom): Text '42341169' is set on object 'Object Repository/Admin/Verificacion/input_FiltrarCI'
+
+2021-10-20 15:36:13 - [MESSAGE][PASSED] - Text '42341169' is set on object 'Object Repository/Admin/Verificacion/input_FiltrarCI'
+
+2021-10-20 15:36:13 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Retomar VI")): Object: 'Object Repository/Admin/Verificacion/button_Retomar VI' is clicked on
+
+2021-10-20 15:36:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Retomar VI' is clicked on
+
+2021-10-20 15:36:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Verificacion/button_Subir_1"), 0): Object 'Object Repository/Admin/Verificacion/button_Subir_1' is present
+
+2021-10-20 15:36:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:36:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_Subir_1' is present
+
+2021-10-20 15:36:22 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Subir_1")): Object: 'Object Repository/Admin/Verificacion/button_Subir_1' is clicked on
+
+2021-10-20 15:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Subir_1' is clicked on
+
+2021-10-20 15:36:23 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Admin/Verificacion/input_File"), "C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg"): File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:36:23 - [MESSAGE][PASSED] - File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:36:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_1"), 0): Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_1' is clickable
+
+2021-10-20 15:36:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:36:24 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_1' is clickable
+
+2021-10-20 15:36:24 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_1")): Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_1' is clicked on
+
+2021-10-20 15:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_1' is clicked on
+
+2021-10-20 15:36:24 - [TEST_STEP][PASSED] - check(findTestObject("Admin/Verificacion/input_ConfirmarImagen_1")): Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_1' is checked
+
+2021-10-20 15:36:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_1' is checked
+
+2021-10-20 15:36:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/button_Subir_2"), 0): Object 'Object Repository/Admin/Verificacion/button_Subir_2' is visible
+
+2021-10-20 15:36:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:36:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_Subir_2' is visible
+
+2021-10-20 15:36:26 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Subir_2")): Object: 'Object Repository/Admin/Verificacion/button_Subir_2' is clicked on
+
+2021-10-20 15:36:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Subir_2' is clicked on
+
+2021-10-20 15:36:26 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Admin/Verificacion/input_File"), "C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg"): File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:36:27 - [MESSAGE][PASSED] - File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:36:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_2"), 0): Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_2' is clickable
+
+2021-10-20 15:36:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:36:27 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_2' is clickable
+
+2021-10-20 15:36:27 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_2")): Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_2' is clicked on
+
+2021-10-20 15:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_2' is clicked on
+
+2021-10-20 15:36:28 - [TEST_STEP][PASSED] - check(findTestObject("Admin/Verificacion/input_ConfirmarImagen_2")): Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_2' is checked
+
+2021-10-20 15:36:28 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_2' is checked
+
+2021-10-20 15:36:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/button_Subir_3"), 0): Object 'Object Repository/Admin/Verificacion/button_Subir_3' is visible
+
+2021-10-20 15:36:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:36:29 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_Subir_3' is visible
+
+2021-10-20 15:36:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Subir_3")): Object: 'Object Repository/Admin/Verificacion/button_Subir_3' is clicked on
+
+2021-10-20 15:36:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Subir_3' is clicked on
+
+2021-10-20 15:36:29 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Admin/Verificacion/input_File"), "C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg"): File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:36:30 - [MESSAGE][PASSED] - File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:36:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_3"), 0): Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_3' is clickable
+
+2021-10-20 15:36:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:36:31 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_3' is clickable
+
+2021-10-20 15:36:31 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_3")): Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_3' is clicked on
+
+2021-10-20 15:36:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_3' is clicked on
+
+2021-10-20 15:36:31 - [TEST_STEP][PASSED] - check(findTestObject("Admin/Verificacion/input_ConfirmarImagen_3")): Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_3' is checked
+
+2021-10-20 15:36:32 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_3' is checked
+
+2021-10-20 15:36:32 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Verificacion/input_NumeroSerieCI"), "123456"): Text '123456' is set on object 'Object Repository/Admin/Verificacion/input_NumeroSerieCI'
+
+2021-10-20 15:36:34 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Admin/Verificacion/input_NumeroSerieCI'
+
+2021-10-20 15:36:34 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://dev-admin-int.paigo.uy/admin/iv?request=38f27569-a5f9-4508-8263-384f67aeb92a&brand=CreditoUruguayo&moment=ManualVerification&reason=VerificationNeeded'
+
+2021-10-20 15:36:34 - [MESSAGE][PASSED] - Current window's url is: 'https://dev-admin-int.paigo.uy/admin/iv?request=38f27569-a5f9-4508-8263-384f67aeb92a&brand=CreditoUruguayo&moment=ManualVerification&reason=VerificationNeeded'
+
+2021-10-20 15:36:34 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Obtener")): Object: 'Object Repository/Admin/Verificacion/button_Obtener' is clicked on
+
+2021-10-20 15:36:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Obtener' is clicked on
+
+2021-10-20 15:36:34 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2021-10-20 15:36:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-20 15:36:39 - [TEST_STEP][PASSED] - switchToWindowUrl(url): Switched to window with url: 'https://dev-admin-int.paigo.uy/admin/iv?request=38f27569-a5f9-4508-8263-384f67aeb92a&brand=CreditoUruguayo&moment=ManualVerification&reason=VerificationNeeded'
+
+2021-10-20 15:36:39 - [MESSAGE][PASSED] - Switched to window with url: 'https://dev-admin-int.paigo.uy/admin/iv?request=38f27569-a5f9-4508-8263-384f67aeb92a&brand=CreditoUruguayo&moment=ManualVerification&reason=VerificationNeeded'
+
+2021-10-20 15:36:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Verificacion/button_Obtener"), Keys.chord(TAB, "14021970")): Keys 'TAB + 14021970' sent to object: 'Object Repository/Admin/Verificacion/button_Obtener'
+
+2021-10-20 15:36:39 - [MESSAGE][PASSED] - Keys 'TAB + 14021970' sent to object: 'Object Repository/Admin/Verificacion/button_Obtener'
+
+2021-10-20 15:36:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Verificacion/input_FechaNacimiento"), Keys.chord(TAB, "14022002")): Keys 'TAB + 14022002' sent to object: 'Object Repository/Admin/Verificacion/input_FechaNacimiento'
+
+2021-10-20 15:36:40 - [MESSAGE][PASSED] - Keys 'TAB + 14022002' sent to object: 'Object Repository/Admin/Verificacion/input_FechaNacimiento'
+
+2021-10-20 15:36:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Verificacion/input_FechaEmisionCI"), Keys.chord(TAB, "14022040")): Keys 'TAB + 14022040' sent to object: 'Object Repository/Admin/Verificacion/input_FechaEmisionCI'
+
+2021-10-20 15:36:40 - [MESSAGE][PASSED] - Keys 'TAB + 14022040' sent to object: 'Object Repository/Admin/Verificacion/input_FechaEmisionCI'
+
+2021-10-20 15:36:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_ConfirmarIdentidad")): Object: 'Object Repository/Admin/Verificacion/button_ConfirmarIdentidad' is clicked on
+
+2021-10-20 15:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_ConfirmarIdentidad' is clicked on
+
+2021-10-20 15:36:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/button_Confirmar"), 0): Object 'Object Repository/Admin/Verificacion/button_Confirmar' is visible
+
+2021-10-20 15:36:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:36:41 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_Confirmar' is visible
+
+2021-10-20 15:36:41 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Confirmar")): Object: 'Object Repository/Admin/Verificacion/button_Confirmar' is clicked on
+
+2021-10-20 15:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Confirmar' is clicked on
+
+2021-10-20 15:36:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-20 15:36:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-20 15:36:45 - [TEST_STEP][PASSED] - verifyTextPresent("VERIFICACIÓN COMPLETADA", false): Text 'VERIFICACIÓN COMPLETADA' is present on page 
+
+2021-10-20 15:36:45 - [MESSAGE][PASSED] - Text 'VERIFICACIÓN COMPLETADA' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Credito Uruguayo/Desembolso" time="29.511" classname="Test Cases/Admin/Credito Uruguayo/Desembolso" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:36:45 - [TEST_CASE][PASSED] - Test Cases/Admin/Credito Uruguayo/Desembolso: Test Cases/Admin/Credito Uruguayo/Desembolso
+
+2021-10-20 15:36:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Desembolso/p_DESEMBOLSO"), 0): Object 'Object Repository/Admin/Desembolso/p_DESEMBOLSO' is visible
+
+2021-10-20 15:36:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:36:46 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Desembolso/p_DESEMBOLSO' is visible
+
+2021-10-20 15:36:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Desembolso/p_DESEMBOLSO")): Object: 'Object Repository/Admin/Desembolso/p_DESEMBOLSO' is clicked on
+
+2021-10-20 15:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Desembolso/p_DESEMBOLSO' is clicked on
+
+2021-10-20 15:36:46 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Desembolso/select_Marca"), Marca_CU, false): All options with label 'CreditoUruguayo' are selected in object 'Object Repository/Admin/Desembolso/select_Marca' 
+
+2021-10-20 15:36:47 - [MESSAGE][PASSED] - All options with label 'CreditoUruguayo' are selected in object 'Object Repository/Admin/Desembolso/select_Marca' 
+
+2021-10-20 15:36:47 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Desembolso/button_Obtener")): Object: 'Object Repository/Admin/Desembolso/button_Obtener' is clicked on
+
+2021-10-20 15:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Desembolso/button_Obtener' is clicked on
+
+2021-10-20 15:36:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Desembolso/input_FiltrarCI"), 0): Object 'Object Repository/Admin/Desembolso/input_FiltrarCI' is visible
+
+2021-10-20 15:36:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:37:08 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Desembolso/input_FiltrarCI' is visible
+
+2021-10-20 15:37:08 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Desembolso/input_FiltrarCI"), cedulaRandom): Text '42341169' is set on object 'Object Repository/Admin/Desembolso/input_FiltrarCI'
+
+2021-10-20 15:37:09 - [MESSAGE][PASSED] - Text '42341169' is set on object 'Object Repository/Admin/Desembolso/input_FiltrarCI'
+
+2021-10-20 15:37:09 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Desembolso/button_Desembolsar")): Object: 'Object Repository/Admin/Desembolso/button_Desembolsar' is clicked on
+
+2021-10-20 15:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Desembolso/button_Desembolsar' is clicked on
+
+2021-10-20 15:37:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, TAB, ARROW_DOWN)): Keys 'TAB + TAB + DOWN + ' sent to object: 'tempBody'
+
+2021-10-20 15:37:09 - [MESSAGE][WARNING] - Test object id is null
+
+2021-10-20 15:37:09 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-10-20 15:37:10 - [MESSAGE][PASSED] - Keys 'TAB + TAB + DOWN + ' sent to object: 'tempBody'
+
+2021-10-20 15:37:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-10-20 15:37:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-10-20 15:37:11 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Desembolso/button_AceptarDesembolso")): Object: 'Object Repository/Admin/Desembolso/button_AceptarDesembolso' is clicked on
+
+2021-10-20 15:37:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Desembolso/button_AceptarDesembolso' is clicked on
+
+2021-10-20 15:37:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-20 15:37:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-20 15:37:14 - [TEST_STEP][PASSED] - verifyTextPresent("✓ Desembolso completado correctamente", false): Text '✓ Desembolso completado correctamente' is present on page 
+
+2021-10-20 15:37:15 - [MESSAGE][PASSED] - Text '✓ Desembolso completado correctamente' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-20 15:34:09 - [TEST_SUITE][PASSED] - Credito Uruguayo: Test Cases/Admin/Credito Uruguayo/Desembolso]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

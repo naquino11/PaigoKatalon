@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Flujo - Credito Uruguayo" time="135.695" tests="2" failures="0" errors="0">
+   <testsuite name="Flujo - Credito Uruguayo" tests="2" failures="0" errors="0" time="135.695" skipped="0" timestamp="2021-10-18 12:06:13" hostname="nicolas.aquino - ip-192-168-1-7.ec2.internal" id="Test Suites/QA/Flujo - Credito Uruguayo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211018_120605\\QA\\Flujo - Credito Uruguayo\\20211018_120606"/>
+         <property name="logFiles" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211018_120605\\QA\\Flujo - Credito Uruguayo\\20211018_120606\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211018_120605\\QA\\Flujo - Credito Uruguayo\\20211018_120606\\1634569657754.png"/>
+         <property name="hostName" value="nicolas.aquino - ip-192-168-1-7.ec2.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="ad7c0035c6376aef38bdbc25f929b726"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/0_Generales/Generar cedula random" time="4.003" classname="Test Cases/0_Generales/Generar cedula random" status="PASSED">
+         <system-out><![CDATA[2021-10-18 12:06:14 - [TEST_CASE][PASSED] - Test Cases/0_Generales/Generar cedula random: Test Cases/0_Generales/Generar cedula random
+
+2021-10-18 12:06:14 - [TEST_STEP][PASSED] - openBrowser("https://picandocodigo.github.io/ci_js/"): Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-18 12:06:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-18 12:06:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-18 12:06:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-18 12:06:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-18 12:06:16 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-18 12:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-18 12:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-18 12:06:17 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '39383124'
+
+2021-10-18 12:06:17 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '39383124']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreditoUruguayo/QA/CreditoUruguayo" time="125.858" classname="Test Cases/CreditoUruguayo/QA/CreditoUruguayo" status="PASSED">
+         <system-out><![CDATA[2021-10-18 12:06:18 - [TEST_CASE][PASSED] - Test Cases/CreditoUruguayo/QA/CreditoUruguayo: Test Cases/CreditoUruguayo/QA/CreditoUruguayo
+
+2021-10-18 12:06:18 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-18 12:06:18 - [MESSAGE][PASSED] - Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-18 12:06:18 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2021-10-18 12:06:18 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2021-10-18 12:06:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-10-18 12:06:18 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-10-18 12:06:18 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-10-18 12:06:18 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2021-10-18 12:06:18 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-10-18 12:06:18 - [TEST_STEP][PASSED] - navigateToUrl(CU_QA): Navigate to 'https://qa-www.creditouruguayo.com.uy' successfully
+
+2021-10-18 12:06:22 - [MESSAGE][PASSED] - Navigate to 'https://qa-www.creditouruguayo.com.uy' successfully
+
+2021-10-18 12:06:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Inicio/a_InicioFlujo"), 0): Object 'Object Repository/CreditoUruguayo/Inicio/a_InicioFlujo' is present
+
+2021-10-18 12:06:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Inicio/a_InicioFlujo' is present
+
+2021-10-18 12:06:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Inicio/a_InicioFlujo")): Object: 'Object Repository/CreditoUruguayo/Inicio/a_InicioFlujo' is clicked on
+
+2021-10-18 12:06:29 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Inicio/a_InicioFlujo' is clicked on
+
+2021-10-18 12:06:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 1/input_Cedula"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 1/input_Cedula' is present
+
+2021-10-18 12:06:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:06:37 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 1/input_Cedula' is present
+
+2021-10-18 12:06:37 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 1/input_Cedula"), cedulaRandom): Text '39383124' is set on object 'Object Repository/CreditoUruguayo/Flujo 1/input_Cedula'
+
+2021-10-18 12:06:38 - [MESSAGE][PASSED] - Text '39383124' is set on object 'Object Repository/CreditoUruguayo/Flujo 1/input_Cedula'
+
+2021-10-18 12:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 1/input_Celular"), celular): Text '94040738' is set on object 'Object Repository/CreditoUruguayo/Flujo 1/input_Celular'
+
+2021-10-18 12:06:39 - [MESSAGE][PASSED] - Text '94040738' is set on object 'Object Repository/CreditoUruguayo/Flujo 1/input_Celular'
+
+2021-10-18 12:06:39 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 1/input_TyC")): Object: 'Object Repository/CreditoUruguayo/Flujo 1/input_TyC' is clicked on
+
+2021-10-18 12:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 1/input_TyC' is clicked on
+
+2021-10-18 12:06:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 1/button_Continuar-1")): Object: 'Object Repository/CreditoUruguayo/Flujo 1/button_Continuar-1' is clicked on
+
+2021-10-18 12:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 1/button_Continuar-1' is clicked on
+
+2021-10-18 12:06:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 2/input_Nombre"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 2/input_Nombre' is present
+
+2021-10-18 12:06:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:06:41 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 2/input_Nombre' is present
+
+2021-10-18 12:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 2/input_Nombre"), nombre): Text 'Nicolas' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Nombre'
+
+2021-10-18 12:06:49 - [MESSAGE][PASSED] - Text 'Nicolas' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Nombre'
+
+2021-10-18 12:06:49 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 2/input_Apellido"), apellido): Text 'Aquino' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Apellido'
+
+2021-10-18 12:06:50 - [MESSAGE][PASSED] - Text 'Aquino' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Apellido'
+
+2021-10-18 12:06:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CreditoUruguayo/Flujo 2/select_Dia"), "15", false): All options with value '15' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Dia' 
+
+2021-10-18 12:06:51 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Dia' 
+
+2021-10-18 12:06:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CreditoUruguayo/Flujo 2/select_Mes"), "10", false): All options with value '10' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Mes' 
+
+2021-10-18 12:06:51 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Mes' 
+
+2021-10-18 12:06:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CreditoUruguayo/Flujo 2/select_Anio"), "1970", false): All options with value '1970' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Anio' 
+
+2021-10-18 12:06:52 - [MESSAGE][PASSED] - All options with value '1970' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Anio' 
+
+2021-10-18 12:06:52 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2021-10-18 12:06:53 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2021-10-18 12:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 2/input_Email"), email): Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Email'
+
+2021-10-18 12:06:54 - [MESSAGE][PASSED] - Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Email'
+
+2021-10-18 12:06:54 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2021-10-18 12:06:54 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2021-10-18 12:06:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreditoUruguayo/Flujo 2/emailNoValidoFocus"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 2/emailNoValidoFocus'
+
+2021-10-18 12:06:55 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 2/emailNoValidoFocus'
+
+2021-10-18 12:06:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreditoUruguayo/Flujo 2/input_Email"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 2/input_Email'
+
+2021-10-18 12:06:55 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 2/input_Email'
+
+2021-10-18 12:06:55 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 2/Departamento_1")): Object: 'Object Repository/CreditoUruguayo/Flujo 2/Departamento_1' is clicked on
+
+2021-10-18 12:06:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 2/Departamento_1' is clicked on
+
+2021-10-18 12:06:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'tempBody'
+
+2021-10-18 12:06:56 - [MESSAGE][WARNING] - Test object id is null
+
+2021-10-18 12:06:56 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-10-18 12:06:56 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'tempBody'
+
+2021-10-18 12:06:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'tempBody'
+
+2021-10-18 12:06:56 - [MESSAGE][WARNING] - Test object id is null
+
+2021-10-18 12:06:56 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-10-18 12:06:57 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'tempBody'
+
+2021-10-18 12:06:57 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 2/Departamento_2")): Object: 'Object Repository/CreditoUruguayo/Flujo 2/Departamento_2' is clicked on
+
+2021-10-18 12:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 2/Departamento_2' is clicked on
+
+2021-10-18 12:06:57 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 2/input_Ingresos"), "12000"): Text '12000' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Ingresos'
+
+2021-10-18 12:06:58 - [MESSAGE][PASSED] - Text '12000' is set on object 'Object Repository/CreditoUruguayo/Flujo 2/input_Ingresos'
+
+2021-10-18 12:06:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("CreditoUruguayo/Flujo 2/select_Genero"), "Male", false): All options with value 'Male' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Genero' 
+
+2021-10-18 12:06:59 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/CreditoUruguayo/Flujo 2/select_Genero' 
+
+2021-10-18 12:06:59 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 2/button_Continuar-2")): Object: 'Object Repository/CreditoUruguayo/Flujo 2/button_Continuar-2' is clicked on
+
+2021-10-18 12:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 2/button_Continuar-2' is clicked on
+
+2021-10-18 12:06:59 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("CreditoUruguayo/Flujo 3/div_SinOferta"), 0, OPTIONAL)): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreditoUruguayo/Flujo 3/div_SinOferta' located by '//div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreditoUruguayo/Flujo 3/div_SinOferta' located by '//div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$12.call(Unknown Source)
+	at CreditoUruguayo.run(CreditoUruguayo:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634569566822.run(TempTestSuite1634569566822.groovy:36)
+)
+
+2021-10-18 12:06:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:07:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-18 12:07:37 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreditoUruguayo/Flujo 3/div_SinOferta' located by '//div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreditoUruguayo/Flujo 3/div_SinOferta' located by '//div[(text() = 'Por ahora no tenemos oferta para ti' or . = 'Por ahora no tenemos oferta para ti')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1448)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$12.call(Unknown Source)
+	at CreditoUruguayo.run(CreditoUruguayo:101)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634569566822.run(TempTestSuite1634569566822.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211018_120605\\QA\\Flujo - Credito Uruguayo\\20211018_120606\\1634569657754.png]]
+
+2021-10-18 12:07:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 3/select_FechaVencimiento"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento' is present
+
+2021-10-18 12:07:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:07:38 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento' is present
+
+2021-10-18 12:07:38 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 3/select_FechaVencimiento")): Object: 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento' is clicked on
+
+2021-10-18 12:07:38 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento' is clicked on
+
+2021-10-18 12:07:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreditoUruguayo/Flujo 3/select_FechaVencimiento"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento'
+
+2021-10-18 12:07:39 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 3/select_FechaVencimiento'
+
+2021-10-18 12:07:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 3/select_Cuotas"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas' is present
+
+2021-10-18 12:07:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:07:51 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas' is present
+
+2021-10-18 12:07:51 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 3/select_Cuotas")): Object: 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas' is clicked on
+
+2021-10-18 12:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas' is clicked on
+
+2021-10-18 12:07:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("CreditoUruguayo/Flujo 3/select_Cuotas"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas'
+
+2021-10-18 12:07:52 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/CreditoUruguayo/Flujo 3/select_Cuotas'
+
+2021-10-18 12:07:52 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("CreditoUruguayo/Flujo 3/select_Banco"), "Itaú", false): All options with label 'Itaú' are selected in object 'Object Repository/CreditoUruguayo/Flujo 3/select_Banco' 
+
+2021-10-18 12:07:53 - [MESSAGE][PASSED] - All options with label 'Itaú' are selected in object 'Object Repository/CreditoUruguayo/Flujo 3/select_Banco' 
+
+2021-10-18 12:07:53 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 3/input_CuentaBancaria"), cuentaBancaria): Text '1234567' is set on object 'Object Repository/CreditoUruguayo/Flujo 3/input_CuentaBancaria'
+
+2021-10-18 12:07:53 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/CreditoUruguayo/Flujo 3/input_CuentaBancaria'
+
+2021-10-18 12:07:53 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 3/button_Continuar-3")): Object: 'Object Repository/CreditoUruguayo/Flujo 3/button_Continuar-3' is clicked on
+
+2021-10-18 12:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 3/button_Continuar-3' is clicked on
+
+2021-10-18 12:07:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 4/a_ConfirmarCredito"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 4/a_ConfirmarCredito' is present
+
+2021-10-18 12:07:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:07:55 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 4/a_ConfirmarCredito' is present
+
+2021-10-18 12:07:55 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 4/a_ConfirmarCredito")): Object: 'Object Repository/CreditoUruguayo/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-10-18 12:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-10-18 12:07:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 5/input_Direccion"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 5/input_Direccion' is present
+
+2021-10-18 12:07:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:07:57 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 5/input_Direccion' is present
+
+2021-10-18 12:07:57 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 5/input_Direccion"), direccion): Text 'Calle falsa 123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_Direccion'
+
+2021-10-18 12:08:05 - [MESSAGE][PASSED] - Text 'Calle falsa 123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_Direccion'
+
+2021-10-18 12:08:05 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 5/button_CrearContrasena")): Object: 'Object Repository/CreditoUruguayo/Flujo 5/button_CrearContrasena' is clicked on
+
+2021-10-18 12:08:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 5/button_CrearContrasena' is clicked on
+
+2021-10-18 12:08:05 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 5/input_Contrasena"), contrasena): Text 'paigo123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_Contrasena'
+
+2021-10-18 12:08:06 - [MESSAGE][PASSED] - Text 'paigo123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_Contrasena'
+
+2021-10-18 12:08:06 - [TEST_STEP][PASSED] - setText(findTestObject("CreditoUruguayo/Flujo 5/input_ConfirmarContrasena"), contrasena): Text 'paigo123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_ConfirmarContrasena'
+
+2021-10-18 12:08:07 - [MESSAGE][PASSED] - Text 'paigo123' is set on object 'Object Repository/CreditoUruguayo/Flujo 5/input_ConfirmarContrasena'
+
+2021-10-18 12:08:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 5/input_TyC-2")): Object: 'Object Repository/CreditoUruguayo/Flujo 5/input_TyC-2' is clicked on
+
+2021-10-18 12:08:07 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 5/input_TyC-2' is clicked on
+
+2021-10-18 12:08:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 5/button_Continuar-4")): Object: 'Object Repository/CreditoUruguayo/Flujo 5/button_Continuar-4' is clicked on
+
+2021-10-18 12:08:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 5/button_Continuar-4' is clicked on
+
+2021-10-18 12:08:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen' is present
+
+2021-10-18 12:08:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:08:14 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen' is present
+
+2021-10-18 12:08:14 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen")): Object: 'Object Repository/CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen' is clicked on
+
+2021-10-18 12:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen' is clicked on
+
+2021-10-18 12:08:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("CreditoUruguayo/Flujo 7/a_Finalizar"), 0): Object 'Object Repository/CreditoUruguayo/Flujo 7/a_Finalizar' is present
+
+2021-10-18 12:08:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-18 12:08:23 - [MESSAGE][PASSED] - Object 'Object Repository/CreditoUruguayo/Flujo 7/a_Finalizar' is present
+
+2021-10-18 12:08:23 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("CreditoUruguayo/Flujo 7/a_Finalizar")): Object: 'Object Repository/CreditoUruguayo/Flujo 7/a_Finalizar' is clicked on
+
+2021-10-18 12:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 7/a_Finalizar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-18 12:06:13 - [TEST_SUITE][PASSED] - Flujo - Credito Uruguayo: Test Cases/CreditoUruguayo/QA/CreditoUruguayo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

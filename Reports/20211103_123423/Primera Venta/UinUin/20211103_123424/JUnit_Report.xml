@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UinUin" time="80.633" tests="3" failures="0" errors="0">
+   <testsuite name="UinUin" tests="3" failures="0" errors="0" time="80.633" skipped="0" timestamp="2021-11-03 12:34:31" hostname="nicolas.aquino - ip-192-168-0-142.ec2.internal" id="Test Suites/Primera Venta/UinUin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211103_123423\\Primera Venta\\UinUin\\20211103_123424"/>
+         <property name="logFiles" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211103_123423\\Primera Venta\\UinUin\\20211103_123424\\execution0.log"/>
+         <property name="attachments" value="C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\39602354\1_CedulaGenerada.jpg, C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\39602354\2_FlujoUinUin.jpg"/>
+         <property name="hostName" value="nicolas.aquino - ip-192-168-0-142.ec2.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.54"/>
+         <property name="hostAddress" value="192.168.0.142"/>
+         <property name="sessionId" value="1dfa0086e31ad760d78ca739391b73e1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/General/Generar Cedula Random" time="4.23" classname="Test Cases/General/Generar Cedula Random" status="PASSED">
+         <system-out><![CDATA[2021-11-03 12:34:31 - [TEST_CASE][PASSED] - Test Cases/General/Generar Cedula Random: Test Cases/General/Generar Cedula Random
+
+2021-11-03 12:34:31 - [TEST_STEP][PASSED] - openBrowser("https://picandocodigo.github.io/ci_js/"): Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-11-03 12:34:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-11-03 12:34:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-11-03 12:34:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-11-03 12:34:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-03 12:34:34 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-03 12:34:34 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-11-03 12:34:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-11-03 12:34:34 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '39602354'
+
+2021-11-03 12:34:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '39602354'
+
+2021-11-03 12:34:35 - [TEST_STEP][PASSED] - while (cedulaRandom >= "60000000"): null
+
+2021-11-03 12:34:35 - [TEST_STEP][PASSED] - takeScreenshot(C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\1_CedulaGenerada.jpg): Taking screenshot successfully
+
+2021-11-03 12:34:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\39602354\1_CedulaGenerada.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UinUin/UU - Flujo Web" time="71.04" classname="Test Cases/UinUin/UU - Flujo Web" status="PASSED">
+         <system-out><![CDATA[2021-11-03 12:34:35 - [TEST_CASE][PASSED] - Test Cases/UinUin/UU - Flujo Web: Test Cases/UinUin/UU - Flujo Web
+
+2021-11-03 12:34:36 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-11-03 12:34:36 - [MESSAGE][PASSED] - Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-11-03 12:34:36 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2021-11-03 12:34:36 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2021-11-03 12:34:36 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-03 12:34:36 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-11-03 12:34:36 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-11-03 12:34:36 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2021-11-03 12:34:36 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-11-03 12:34:36 - [TEST_STEP][PASSED] - navigateToUrl(UinUin): Navigate to 'https://dev-www.uinuin.com.uy' successfully
+
+2021-11-03 12:34:41 - [MESSAGE][PASSED] - Navigate to 'https://dev-www.uinuin.com.uy' successfully
+
+2021-11-03 12:34:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Inicio/a_ComienzoFlujo"), 0): Object 'Object Repository/UinUin/Inicio/a_ComienzoFlujo' is present
+
+2021-11-03 12:34:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-03 12:34:42 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Inicio/a_ComienzoFlujo' is present
+
+2021-11-03 12:34:42 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Inicio/a_ComienzoFlujo")): Object: 'Object Repository/UinUin/Inicio/a_ComienzoFlujo' is clicked on
+
+2021-11-03 12:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Inicio/a_ComienzoFlujo' is clicked on
+
+2021-11-03 12:34:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 1/input_Cedula"), 0): Object 'Object Repository/UinUin/Flujo 1/input_Cedula' is present
+
+2021-11-03 12:34:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-03 12:34:43 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 1/input_Cedula' is present
+
+2021-11-03 12:34:43 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 1/input_Cedula"), cedulaRandom): Text '39602354' is set on object 'Object Repository/UinUin/Flujo 1/input_Cedula'
+
+2021-11-03 12:34:44 - [MESSAGE][PASSED] - Text '39602354' is set on object 'Object Repository/UinUin/Flujo 1/input_Cedula'
+
+2021-11-03 12:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 1/input_Celular"), findTestData("DatosUsuario").getValue(2, 3)): Text '94040738' is set on object 'Object Repository/UinUin/Flujo 1/input_Celular'
+
+2021-11-03 12:34:45 - [MESSAGE][PASSED] - Text '94040738' is set on object 'Object Repository/UinUin/Flujo 1/input_Celular'
+
+2021-11-03 12:34:45 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 1/input_TyC-1")): Object: 'Object Repository/UinUin/Flujo 1/input_TyC-1' is clicked on
+
+2021-11-03 12:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 1/input_TyC-1' is clicked on
+
+2021-11-03 12:34:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 1/button_Continuar-1")): Object: 'Object Repository/UinUin/Flujo 1/button_Continuar-1' is clicked on
+
+2021-11-03 12:34:46 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 1/button_Continuar-1' is clicked on
+
+2021-11-03 12:34:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 2/input_Nombre"), 0): Object 'Object Repository/UinUin/Flujo 2/input_Nombre' is present
+
+2021-11-03 12:34:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-03 12:34:47 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 2/input_Nombre' is present
+
+2021-11-03 12:34:47 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 2/input_Nombre"), findTestData("DatosUsuario").getValue(2, 7)): Text 'Nicolas' is set on object 'Object Repository/UinUin/Flujo 2/input_Nombre'
+
+2021-11-03 12:34:48 - [MESSAGE][PASSED] - Text 'Nicolas' is set on object 'Object Repository/UinUin/Flujo 2/input_Nombre'
+
+2021-11-03 12:34:48 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 2/input_Apellido"), findTestData("DatosUsuario").getValue(2, 8)): Text 'Aquino' is set on object 'Object Repository/UinUin/Flujo 2/input_Apellido'
+
+2021-11-03 12:34:49 - [MESSAGE][PASSED] - Text 'Aquino' is set on object 'Object Repository/UinUin/Flujo 2/input_Apellido'
+
+2021-11-03 12:34:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UinUin/Flujo 2/select_Dia"), "15", false): All options with value '15' are selected in object 'Object Repository/UinUin/Flujo 2/select_Dia' 
+
+2021-11-03 12:34:50 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/UinUin/Flujo 2/select_Dia' 
+
+2021-11-03 12:34:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UinUin/Flujo 2/select_Mes"), "10", false): All options with value '10' are selected in object 'Object Repository/UinUin/Flujo 2/select_Mes' 
+
+2021-11-03 12:34:50 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/UinUin/Flujo 2/select_Mes' 
+
+2021-11-03 12:34:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UinUin/Flujo 2/select_Anio"), "1970", false): All options with value '1970' are selected in object 'Object Repository/UinUin/Flujo 2/select_Anio' 
+
+2021-11-03 12:34:51 - [MESSAGE][PASSED] - All options with value '1970' are selected in object 'Object Repository/UinUin/Flujo 2/select_Anio' 
+
+2021-11-03 12:34:51 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2021-11-03 12:34:52 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2021-11-03 12:34:52 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 2/input_Email"), findTestData("DatosUsuario").getValue(2, 6)): Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/UinUin/Flujo 2/input_Email'
+
+2021-11-03 12:34:53 - [MESSAGE][PASSED] - Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/UinUin/Flujo 2/input_Email'
+
+2021-11-03 12:34:53 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2021-11-03 12:34:53 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2021-11-03 12:34:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 2/emailNoValidoFocus"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/UinUin/Flujo 2/emailNoValidoFocus'
+
+2021-11-03 12:34:54 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/UinUin/Flujo 2/emailNoValidoFocus'
+
+2021-11-03 12:34:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 2/input_Email"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/UinUin/Flujo 2/input_Email'
+
+2021-11-03 12:34:54 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/UinUin/Flujo 2/input_Email'
+
+2021-11-03 12:34:54 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 2/select_Departamento")): Object: 'Object Repository/UinUin/Flujo 2/select_Departamento' is clicked on
+
+2021-11-03 12:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 2/select_Departamento' is clicked on
+
+2021-11-03 12:34:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 2/select_Departamento"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 2/select_Departamento'
+
+2021-11-03 12:34:55 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 2/select_Departamento'
+
+2021-11-03 12:34:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, TAB)): Keys 'TAB + TAB + ' sent to object: 'tempBody'
+
+2021-11-03 12:34:55 - [MESSAGE][WARNING] - Test object id is null
+
+2021-11-03 12:34:55 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-11-03 12:34:56 - [MESSAGE][PASSED] - Keys 'TAB + TAB + ' sent to object: 'tempBody'
+
+2021-11-03 12:34:56 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 2/input_Ingresos"), "120000"): Text '120000' is set on object 'Object Repository/UinUin/Flujo 2/input_Ingresos'
+
+2021-11-03 12:34:56 - [MESSAGE][PASSED] - Text '120000' is set on object 'Object Repository/UinUin/Flujo 2/input_Ingresos'
+
+2021-11-03 12:34:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UinUin/Flujo 2/select_Genero"), "Male", false): All options with value 'Male' are selected in object 'Object Repository/UinUin/Flujo 2/select_Genero' 
+
+2021-11-03 12:34:57 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/UinUin/Flujo 2/select_Genero' 
+
+2021-11-03 12:34:57 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 2/button_Continuar-2")): Object: 'Object Repository/UinUin/Flujo 2/button_Continuar-2' is clicked on
+
+2021-11-03 12:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 2/button_Continuar-2' is clicked on
+
+2021-11-03 12:34:58 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("UinUin/Flujo 3/div_SinOferta"), 0, OPTIONAL)): null
+
+2021-11-03 12:34:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-03 12:35:14 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 3/div_SinOferta' is present
+
+2021-11-03 12:35:14 - [TEST_STEP][PASSED] - database.query.connectDB(DB, "processor_uy_pago_despues", "3306", "root", "r{OD_XIn(Ec]"): database.query.connectDB is PASSED
+
+2021-11-03 12:35:16 - [MESSAGE][PASSED] - database.query.connectDB is PASSED
+
+2021-11-03 12:35:16 - [TEST_STEP][PASSED] - database.query.execute(UPDATE ScoringSourceQualification S INNER JOIN Client C ON C.id = S.clientId INNER JOIN Person P ON P.id = C.personId INNER JOIN Entity E ON E.id = P.id INNER JOIN Brand B ON B.id = C.brandId AND B.name = 'UinUin' SET qualification = 	(CASE 	    WHEN sourceType = 'Person' THEN 'M3***' 	    WHEN sourceType = 'RiskCentral' THEN 'RISKCENTRAL_1' 		WHEN sourceType = 'RCTiers' THEN 'RCTG1' 	    WHEN S.sourceType = 'Background' THEN CONCAT('PX2' , RIGHT(S.qualification, locate('-', S.qualification,4))) 	    ELSE qualification     END) WHERE E.legalId = $GlobalVariable.cedulaRandom AND S.date = DATE(NOW());): database.query.execute is PASSED
+
+2021-11-03 12:35:17 - [MESSAGE][PASSED] - database.query.execute is PASSED
+
+2021-11-03 12:35:17 - [TEST_STEP][PASSED] - database.query.closeDatabaseConnection(): database.query.closeDatabaseConnection is PASSED
+
+2021-11-03 12:35:17 - [MESSAGE][PASSED] - database.query.closeDatabaseConnection is PASSED
+
+2021-11-03 12:35:17 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-11-03 12:35:17 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-11-03 12:35:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-03 12:35:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-03 12:35:18 - [TEST_STEP][PASSED] - click(findTestObject("CreditoUruguayo/Flujo 2/button_Continuar-2")): Object: 'Object Repository/CreditoUruguayo/Flujo 2/button_Continuar-2' is clicked on
+
+2021-11-03 12:35:19 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 2/button_Continuar-2' is clicked on
+
+2021-11-03 12:35:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-11-03 12:35:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-11-03 12:35:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 3/select_Vencimiento"), 0): Object 'Object Repository/UinUin/Flujo 3/select_Vencimiento' is present
+
+2021-11-03 12:35:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-03 12:35:29 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 3/select_Vencimiento' is present
+
+2021-11-03 12:35:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 3/select_Vencimiento")): Object: 'Object Repository/UinUin/Flujo 3/select_Vencimiento' is clicked on
+
+2021-11-03 12:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 3/select_Vencimiento' is clicked on
+
+2021-11-03 12:35:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 3/select_Vencimiento"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 3/select_Vencimiento'
+
+2021-11-03 12:35:30 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 3/select_Vencimiento'
+
+2021-11-03 12:35:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 3/select_Cuotas"), 0): Object 'Object Repository/UinUin/Flujo 3/select_Cuotas' is present
+
+2021-11-03 12:35:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-03 12:35:38 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 3/select_Cuotas' is present
+
+2021-11-03 12:35:38 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 3/select_Cuotas")): Object: 'Object Repository/UinUin/Flujo 3/select_Cuotas' is clicked on
+
+2021-11-03 12:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 3/select_Cuotas' is clicked on
+
+2021-11-03 12:35:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 3/select_Cuotas"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 3/select_Cuotas'
+
+2021-11-03 12:35:38 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 3/select_Cuotas'
+
+2021-11-03 12:35:38 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 3/button_Continuar-3")): Object: 'Object Repository/UinUin/Flujo 3/button_Continuar-3' is clicked on
+
+2021-11-03 12:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 3/button_Continuar-3' is clicked on
+
+2021-11-03 12:35:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 4/a_ConfirmarCredito"), 0): Object 'Object Repository/UinUin/Flujo 4/a_ConfirmarCredito' is present
+
+2021-11-03 12:35:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-03 12:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 4/a_ConfirmarCredito' is present
+
+2021-11-03 12:35:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 4/a_ConfirmarCredito")): Object: 'Object Repository/UinUin/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-11-03 12:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-11-03 12:35:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 5/input_Direccion"), 0): Object 'Object Repository/UinUin/Flujo 5/input_Direccion' is present
+
+2021-11-03 12:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-11-03 12:35:41 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 5/input_Direccion' is present
+
+2021-11-03 12:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 5/input_Direccion"), findTestData("DatosUsuario").getValue(2, 9)): Text 'Calle falsa 123' is set on object 'Object Repository/UinUin/Flujo 5/input_Direccion'
+
+2021-11-03 12:35:42 - [MESSAGE][PASSED] - Text 'Calle falsa 123' is set on object 'Object Repository/UinUin/Flujo 5/input_Direccion'
+
+2021-11-03 12:35:42 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 5/button_CrearContrasena")): Object: 'Object Repository/UinUin/Flujo 5/button_CrearContrasena' is clicked on
+
+2021-11-03 12:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 5/button_CrearContrasena' is clicked on
+
+2021-11-03 12:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 5/input_Contrasena"), findTestData("DatosUsuario").getValue(2, 11)): Text 'paigo123' is set on object 'Object Repository/UinUin/Flujo 5/input_Contrasena'
+
+2021-11-03 12:35:44 - [MESSAGE][PASSED] - Text 'paigo123' is set on object 'Object Repository/UinUin/Flujo 5/input_Contrasena'
+
+2021-11-03 12:35:44 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 5/input_ConfirmarContrasena"), findTestData("DatosUsuario").getValue(2, 11)): Text 'paigo123' is set on object 'Object Repository/UinUin/Flujo 5/input_ConfirmarContrasena'
+
+2021-11-03 12:35:44 - [MESSAGE][PASSED] - Text 'paigo123' is set on object 'Object Repository/UinUin/Flujo 5/input_ConfirmarContrasena'
+
+2021-11-03 12:35:44 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 5/input_TyC-2")): Object: 'Object Repository/UinUin/Flujo 5/input_TyC-2' is clicked on
+
+2021-11-03 12:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 5/input_TyC-2' is clicked on
+
+2021-11-03 12:35:45 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 5/button_Continuar-4")): Object: 'Object Repository/UinUin/Flujo 5/button_Continuar-4' is clicked on
+
+2021-11-03 12:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 5/button_Continuar-4' is clicked on
+
+2021-11-03 12:35:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot(C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoUinUin.jpg): Taking screenshot successfully
+
+2021-11-03 12:35:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-11-03 12:35:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\39602354\2_FlujoUinUin.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Logueo" time="5.107" classname="Test Cases/Admin/Logueo" status="PASSED">
+         <system-out><![CDATA[2021-11-03 12:35:46 - [TEST_CASE][PASSED] - Test Cases/Admin/Logueo: Test Cases/Admin/Logueo
+
+2021-11-03 12:35:47 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://dev-www.uinuin.com.uy/aprobar/registro'
+
+2021-11-03 12:35:47 - [MESSAGE][PASSED] - Current window's url is: 'https://dev-www.uinuin.com.uy/aprobar/registro'
+
+2021-11-03 12:35:47 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 1
+
+2021-11-03 12:35:47 - [MESSAGE][PASSED] - Current window's index is: 1
+
+2021-11-03 12:35:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-11-03 12:35:47 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-11-03 12:35:47 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-11-03 12:35:47 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '2'
+
+2021-11-03 12:35:47 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2021-11-03 12:35:47 - [TEST_STEP][PASSED] - navigateToUrl(Admin): Navigate to 'https://dev-admin-int.paigo.uy/login' successfully
+
+2021-11-03 12:35:50 - [MESSAGE][PASSED] - Navigate to 'https://dev-admin-int.paigo.uy/login' successfully
+
+2021-11-03 12:35:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-11-03 12:35:50 - [MESSAGE][PASSED] - Current window maximized
+
+2021-11-03 12:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Logueo/input_Usuario"), findTestData("DatosUsuario").getValue(2, 1)): Text 'gabriel.gayol@paigo.com.uy' is set on object 'Object Repository/Admin/Logueo/input_Usuario'
+
+2021-11-03 12:35:50 - [MESSAGE][PASSED] - Text 'gabriel.gayol@paigo.com.uy' is set on object 'Object Repository/Admin/Logueo/input_Usuario'
+
+2021-11-03 12:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Logueo/input_Contrasena"), findTestData("DatosUsuario").getValue(2, 2)): Text '12345678' is set on object 'Object Repository/Admin/Logueo/input_Contrasena'
+
+2021-11-03 12:35:51 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Admin/Logueo/input_Contrasena'
+
+2021-11-03 12:35:51 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Logueo/button_Ingresar")): Object: 'Object Repository/Admin/Logueo/button_Ingresar' is clicked on
+
+2021-11-03 12:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Logueo/button_Ingresar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-11-03 12:34:31 - [TEST_SUITE][PASSED] - UinUin: Test Cases/Admin/Logueo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

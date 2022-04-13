@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verificación</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22452df4-a6c0-4076-90ed-a3c7a263cf9c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee9dacc0-9017-4d94-800c-ce6141af932e</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

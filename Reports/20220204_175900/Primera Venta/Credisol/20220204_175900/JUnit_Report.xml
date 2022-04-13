@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Credisol" time="101.343" tests="2" failures="0" errors="0">
+   <testsuite name="Credisol" tests="2" failures="0" errors="0" time="101.343" skipped="0" timestamp="2022-02-04 17:59:11" hostname="nicolas.aquino - ip-192-168-1-7.ec2.internal" id="Test Suites/Primera Venta/Credisol">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20220204_175900\\Primera Venta\\Credisol\\20220204_175900"/>
+         <property name="logFiles" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20220204_175900\\Primera Venta\\Credisol\\20220204_175900\\execution0.log"/>
+         <property name="attachments" value="C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\20296421\1_CedulaGenerada.jpg, C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\20296421\2_FlujoCreditoUruguayo.jpg"/>
+         <property name="hostName" value="nicolas.aquino - ip-192-168-1-7.ec2.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 97.0.4692.99"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="2a23e56ec5e68c58d469a9152e8a19ae"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/General/Generar Cedula Random" time="8.533" classname="Test Cases/General/Generar Cedula Random" status="PASSED">
+         <system-out><![CDATA[2022-02-04 17:59:11 - [TEST_CASE][PASSED] - Test Cases/General/Generar Cedula Random: Test Cases/General/Generar Cedula Random
+
+2022-02-04 17:59:12 - [TEST_STEP][PASSED] - openBrowser("https://picandocodigo.github.io/ci_js/"): Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2022-02-04 17:59:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-04 17:59:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-04 17:59:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2022-02-04 17:59:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-02-04 17:59:18 - [MESSAGE][PASSED] - Current window maximized
+
+2022-02-04 17:59:18 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2022-02-04 17:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2022-02-04 17:59:18 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '20296421'
+
+2022-02-04 17:59:19 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '20296421'
+
+2022-02-04 17:59:19 - [TEST_STEP][PASSED] - while (cedulaRandom >= "60000000"): null
+
+2022-02-04 17:59:19 - [TEST_STEP][PASSED] - takeScreenshot(C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\1_CedulaGenerada.jpg): Taking screenshot successfully
+
+2022-02-04 17:59:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\20296421\1_CedulaGenerada.jpg]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Marcas/Credisol/CS - Flujo Web" time="92.3" classname="Test Cases/Marcas/Credisol/CS - Flujo Web" status="PASSED">
+         <system-out><![CDATA[2022-02-04 17:59:20 - [TEST_CASE][PASSED] - Test Cases/Marcas/Credisol/CS - Flujo Web: Test Cases/Marcas/Credisol/CS - Flujo Web
+
+2022-02-04 17:59:21 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2022-02-04 17:59:21 - [MESSAGE][PASSED] - Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2022-02-04 17:59:21 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2022-02-04 17:59:21 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2022-02-04 17:59:21 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2022-02-04 17:59:21 - [TEST_STEP][PASSED] - js = driver: null
+
+2022-02-04 17:59:21 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2022-02-04 17:59:21 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2022-02-04 17:59:21 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2022-02-04 17:59:21 - [TEST_STEP][PASSED] - navigateToUrl(Credisol): Navigate to 'https://dev-credisol.paigo.uy' successfully
+
+2022-02-04 17:59:30 - [MESSAGE][PASSED] - Navigate to 'https://dev-credisol.paigo.uy' successfully
+
+2022-02-04 17:59:30 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Credisol/Inicio/h3_InicioFlujo"), 0): Object 'Object Repository/Credisol/Inicio/h3_InicioFlujo' is present
+
+2022-02-04 17:59:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-04 17:59:30 - [MESSAGE][PASSED] - Object 'Object Repository/Credisol/Inicio/h3_InicioFlujo' is present
+
+2022-02-04 17:59:30 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Inicio/h3_InicioFlujo")): Object: 'Object Repository/Credisol/Inicio/h3_InicioFlujo' is clicked on
+
+2022-02-04 17:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Inicio/h3_InicioFlujo' is clicked on
+
+2022-02-04 17:59:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Credisol/Flujo 1/input_Cedula"), 0): Object 'Object Repository/Credisol/Flujo 1/input_Cedula' is present
+
+2022-02-04 17:59:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-04 17:59:32 - [MESSAGE][PASSED] - Object 'Object Repository/Credisol/Flujo 1/input_Cedula' is present
+
+2022-02-04 17:59:32 - [TEST_STEP][PASSED] - setText(findTestObject("Credisol/Flujo 1/input_Cedula"), cedulaRandom): Text '20296421' is set on object 'Object Repository/Credisol/Flujo 1/input_Cedula'
+
+2022-02-04 17:59:33 - [MESSAGE][PASSED] - Text '20296421' is set on object 'Object Repository/Credisol/Flujo 1/input_Cedula'
+
+2022-02-04 17:59:33 - [TEST_STEP][PASSED] - setText(findTestObject("Credisol/Flujo 1/input_Celular"), findTestData("DatosUsuario").getValue(2, 3)): Text '94040738' is set on object 'Object Repository/Credisol/Flujo 1/input_Celular'
+
+2022-02-04 17:59:33 - [MESSAGE][PASSED] - Text '94040738' is set on object 'Object Repository/Credisol/Flujo 1/input_Celular'
+
+2022-02-04 17:59:33 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 1/input_TyC-1")): Object: 'Object Repository/Credisol/Flujo 1/input_TyC-1' is clicked on
+
+2022-02-04 17:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 1/input_TyC-1' is clicked on
+
+2022-02-04 17:59:34 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 1/div_Continuar-1")): Object: 'Object Repository/Credisol/Flujo 1/div_Continuar-1' is clicked on
+
+2022-02-04 17:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 1/div_Continuar-1' is clicked on
+
+2022-02-04 17:59:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Credisol/Flujo 2/input_Nombre"), 0): Object 'Object Repository/Credisol/Flujo 2/input_Nombre' is present
+
+2022-02-04 17:59:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-04 17:59:35 - [MESSAGE][PASSED] - Object 'Object Repository/Credisol/Flujo 2/input_Nombre' is present
+
+2022-02-04 17:59:35 - [TEST_STEP][PASSED] - setText(findTestObject("Credisol/Flujo 2/input_Nombre"), findTestData("DatosUsuario").getValue(2, 7)): Text 'Nicolas' is set on object 'Object Repository/Credisol/Flujo 2/input_Nombre'
+
+2022-02-04 17:59:36 - [MESSAGE][PASSED] - Text 'Nicolas' is set on object 'Object Repository/Credisol/Flujo 2/input_Nombre'
+
+2022-02-04 17:59:36 - [TEST_STEP][PASSED] - setText(findTestObject("Credisol/Flujo 2/input_Apellido"), findTestData("DatosUsuario").getValue(2, 8)): Text 'Aquino' is set on object 'Object Repository/Credisol/Flujo 2/input_Apellido'
+
+2022-02-04 17:59:37 - [MESSAGE][PASSED] - Text 'Aquino' is set on object 'Object Repository/Credisol/Flujo 2/input_Apellido'
+
+2022-02-04 17:59:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Credisol/Flujo 2/select_Anio"), "1970", false): All options with value '1970' are selected in object 'Object Repository/Credisol/Flujo 2/select_Anio' 
+
+2022-02-04 17:59:38 - [MESSAGE][PASSED] - All options with value '1970' are selected in object 'Object Repository/Credisol/Flujo 2/select_Anio' 
+
+2022-02-04 17:59:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Credisol/Flujo 2/select_Mes"), "2", false): All options with value '2' are selected in object 'Object Repository/Credisol/Flujo 2/select_Mes' 
+
+2022-02-04 17:59:39 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Credisol/Flujo 2/select_Mes' 
+
+2022-02-04 17:59:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Credisol/Flujo 2/select_Dia"), "14", false): All options with value '14' are selected in object 'Object Repository/Credisol/Flujo 2/select_Dia' 
+
+2022-02-04 17:59:40 - [MESSAGE][PASSED] - All options with value '14' are selected in object 'Object Repository/Credisol/Flujo 2/select_Dia' 
+
+2022-02-04 17:59:40 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2022-02-04 17:59:40 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2022-02-04 17:59:40 - [TEST_STEP][PASSED] - setText(findTestObject("Credisol/Flujo 2/input_Email"), findTestData("DatosUsuario").getValue(2, 6)): Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/Credisol/Flujo 2/input_Email'
+
+2022-02-04 17:59:41 - [MESSAGE][PASSED] - Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/Credisol/Flujo 2/input_Email'
+
+2022-02-04 17:59:41 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2022-02-04 17:59:42 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2022-02-04 17:59:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Credisol/Flujo 2/input_EmailInvalido"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Credisol/Flujo 2/input_EmailInvalido'
+
+2022-02-04 17:59:43 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/Credisol/Flujo 2/input_EmailInvalido'
+
+2022-02-04 17:59:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Credisol/Flujo 2/select_Departamento"), "Montevideo", false): All options with value 'Montevideo' are selected in object 'Object Repository/Credisol/Flujo 2/select_Departamento' 
+
+2022-02-04 17:59:44 - [MESSAGE][PASSED] - All options with value 'Montevideo' are selected in object 'Object Repository/Credisol/Flujo 2/select_Departamento' 
+
+2022-02-04 17:59:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Credisol/Flujo 2/select_Localidad"), "Pocitos", false): All options with value 'Pocitos' are selected in object 'Object Repository/Credisol/Flujo 2/select_Localidad' 
+
+2022-02-04 17:59:45 - [MESSAGE][PASSED] - All options with value 'Pocitos' are selected in object 'Object Repository/Credisol/Flujo 2/select_Localidad' 
+
+2022-02-04 17:59:45 - [TEST_STEP][PASSED] - setText(findTestObject("Credisol/Flujo 2/input_Ingresos"), "12000"): Text '12000' is set on object 'Object Repository/Credisol/Flujo 2/input_Ingresos'
+
+2022-02-04 17:59:45 - [MESSAGE][PASSED] - Text '12000' is set on object 'Object Repository/Credisol/Flujo 2/input_Ingresos'
+
+2022-02-04 17:59:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Credisol/Flujo 2/select_Genero"), "Male", false): All options with value 'Male' are selected in object 'Object Repository/Credisol/Flujo 2/select_Genero' 
+
+2022-02-04 17:59:46 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/Credisol/Flujo 2/select_Genero' 
+
+2022-02-04 17:59:46 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 2/div_Continuar-2")): Object: 'Object Repository/Credisol/Flujo 2/div_Continuar-2' is clicked on
+
+2022-02-04 17:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 2/div_Continuar-2' is clicked on
+
+2022-02-04 17:59:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Credisol/Flujo 3/select_Vencimiento"), 0): Object 'Object Repository/Credisol/Flujo 3/select_Vencimiento' is not present after 0 second(s)
+
+2022-02-04 17:59:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-04 18:00:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //select[@id='dueDate']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-02-04 18:00:18 - [MESSAGE][WARNING] - Object 'Object Repository/Credisol/Flujo 3/select_Vencimiento' is not present after 0 second(s)
+
+2022-02-04 18:00:18 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 3/select_Vencimiento"), STOP_ON_FAILURE): Object: 'Object Repository/Credisol/Flujo 3/select_Vencimiento' is clicked on
+
+2022-02-04 18:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 3/select_Vencimiento' is clicked on
+
+2022-02-04 18:00:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Credisol/Flujo 3/select_Vencimiento"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Credisol/Flujo 3/select_Vencimiento'
+
+2022-02-04 18:00:31 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Credisol/Flujo 3/select_Vencimiento'
+
+2022-02-04 18:00:31 - [TEST_STEP][PASSED] - delay(7, STOP_ON_FAILURE): Delayed 7 second(s)
+
+2022-02-04 18:00:38 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2022-02-04 18:00:38 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 3/select_Cuotas"), STOP_ON_FAILURE): Object: 'Object Repository/Credisol/Flujo 3/select_Cuotas' is clicked on
+
+2022-02-04 18:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 3/select_Cuotas' is clicked on
+
+2022-02-04 18:00:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Credisol/Flujo 3/select_Cuotas"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Credisol/Flujo 3/select_Cuotas'
+
+2022-02-04 18:00:39 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/Credisol/Flujo 3/select_Cuotas'
+
+2022-02-04 18:00:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Credisol/Flujo 4/select_MetodoDesembolso"), "BankTransfer", false): All options with value 'BankTransfer' are selected in object 'Object Repository/Credisol/Flujo 4/select_MetodoDesembolso' 
+
+2022-02-04 18:00:40 - [MESSAGE][PASSED] - All options with value 'BankTransfer' are selected in object 'Object Repository/Credisol/Flujo 4/select_MetodoDesembolso' 
+
+2022-02-04 18:00:40 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Credisol/Flujo 3/select_Banco"), "Itaú", false): All options with label 'Itaú' are selected in object 'Object Repository/Credisol/Flujo 3/select_Banco' 
+
+2022-02-04 18:00:40 - [MESSAGE][PASSED] - All options with label 'Itaú' are selected in object 'Object Repository/Credisol/Flujo 3/select_Banco' 
+
+2022-02-04 18:00:40 - [TEST_STEP][PASSED] - setText(findTestObject("Credisol/Flujo 3/input_Cuenta"), findTestData("DatosUsuario").getValue(2, 10)): Text '1234567' is set on object 'Object Repository/Credisol/Flujo 3/input_Cuenta'
+
+2022-02-04 18:00:41 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Credisol/Flujo 3/input_Cuenta'
+
+2022-02-04 18:00:41 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 3/div_Continuar-3")): Object: 'Object Repository/Credisol/Flujo 3/div_Continuar-3' is clicked on
+
+2022-02-04 18:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 3/div_Continuar-3' is clicked on
+
+2022-02-04 18:00:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Credisol/Flujo 4/input_Direccion"), 0): Object 'Object Repository/Credisol/Flujo 4/input_Direccion' is present
+
+2022-02-04 18:00:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-04 18:00:43 - [MESSAGE][PASSED] - Object 'Object Repository/Credisol/Flujo 4/input_Direccion' is present
+
+2022-02-04 18:00:43 - [TEST_STEP][PASSED] - setText(findTestObject("Credisol/Flujo 4/input_Direccion"), findTestData("DatosUsuario").getValue(2, 9)): Text 'Calle falsa 123' is set on object 'Object Repository/Credisol/Flujo 4/input_Direccion'
+
+2022-02-04 18:00:44 - [MESSAGE][PASSED] - Text 'Calle falsa 123' is set on object 'Object Repository/Credisol/Flujo 4/input_Direccion'
+
+2022-02-04 18:00:44 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 4/input_TyC-2")): Object: 'Object Repository/Credisol/Flujo 4/input_TyC-2' is clicked on
+
+2022-02-04 18:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 4/input_TyC-2' is clicked on
+
+2022-02-04 18:00:44 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 4/div_Continuar-4")): Object: 'Object Repository/Credisol/Flujo 4/div_Continuar-4' is clicked on
+
+2022-02-04 18:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 4/div_Continuar-4' is clicked on
+
+2022-02-04 18:00:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Credisol/Flujo 5/div_QuieroQueMeLlamen"), 0): Object 'Object Repository/Credisol/Flujo 5/div_QuieroQueMeLlamen' is present
+
+2022-02-04 18:00:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-04 18:00:50 - [MESSAGE][PASSED] - Object 'Object Repository/Credisol/Flujo 5/div_QuieroQueMeLlamen' is present
+
+2022-02-04 18:00:50 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 5/div_QuieroQueMeLlamen")): Object: 'Object Repository/Credisol/Flujo 5/div_QuieroQueMeLlamen' is clicked on
+
+2022-02-04 18:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 5/div_QuieroQueMeLlamen' is clicked on
+
+2022-02-04 18:00:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot(C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoCreditoUruguayo.jpg): Taking screenshot successfully
+
+2022-02-04 18:00:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-02-04 18:00:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\20296421\2_FlujoCreditoUruguayo.jpg]]
+
+2022-02-04 18:00:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Credisol/Flujo 6/div_FINALIZAR"), 0): Object 'Object Repository/Credisol/Flujo 6/div_FINALIZAR' is present
+
+2022-02-04 18:00:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-02-04 18:00:52 - [MESSAGE][PASSED] - Object 'Object Repository/Credisol/Flujo 6/div_FINALIZAR' is present
+
+2022-02-04 18:00:52 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Credisol/Flujo 6/div_FINALIZAR")): Object: 'Object Repository/Credisol/Flujo 6/div_FINALIZAR' is clicked on
+
+2022-02-04 18:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Credisol/Flujo 6/div_FINALIZAR' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-04 17:59:11 - [TEST_SUITE][PASSED] - Credisol: Test Cases/Marcas/Credisol/CS - Flujo Web]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

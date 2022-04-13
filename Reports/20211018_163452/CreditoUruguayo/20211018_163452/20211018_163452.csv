@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreditoUruguayo,Chrome 94.0.4606.81,,,2021-10-18 16:34:59,2021-10-18 16:36:19,"1m - 20,555s",PASSED
+,,,,,,,
+Test Cases/0_Generales/Generar cedula random,Chrome 94.0.4606.81,,,2021-10-18 16:34:59,2021-10-18 16:35:03,"3,828s",PASSED
+"openBrowser(""https://picandocodigo.github.io/ci_js/"")",Chrome 94.0.4606.81,,,2021-10-18 16:34:59,2021-10-18 16:35:02,"2,376s",PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-18 16:35:02,2021-10-18 16:35:02,"0,157s",PASSED
+"click(findTestObject(""Generador de cedulas/botonGenerar""))",Chrome 94.0.4606.81,,,2021-10-18 16:35:02,2021-10-18 16:35:02,"0,478s",PASSED
+"cedulaRandom = getAttribute(findTestObject(""Generador de cedulas/obtenerCedulaRandom""), ""value"")",Chrome 94.0.4606.81,,,2021-10-18 16:35:02,2021-10-18 16:35:03,"0,513s",PASSED
+,,,,,,,
+Test Cases/CreditoUruguayo/CreditoUruguayo,Chrome 94.0.4606.81,,,2021-10-18 16:35:03,2021-10-18 16:36:19,"1m - 16,453s",PASSED
+currentPage = getUrl(),Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:35:03,2021-10-18 16:35:03,"0,020s",PASSED
+currentTab = getWindowIndex(),Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:35:03,2021-10-18 16:35:03,"0,021s",PASSED
+driver = getWebDriver(),Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:35:03,2021-10-18 16:35:03,"0,012s",PASSED
+js = driver,Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:35:03,2021-10-18 16:35:03,"0,017s",PASSED
+"js.executeScript(""window.open();"")",Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:35:03,2021-10-18 16:35:03,"0,044s",PASSED
+switchToWindowIndex(currentTab + 1),Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:35:03,2021-10-18 16:35:03,"0,039s",PASSED
+navigateToUrl(CreditoUruguayo),Chrome 94.0.4606.81,,,2021-10-18 16:35:03,2021-10-18 16:35:07,"3,881s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Inicio/a_InicioFlujo""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:35:07,2021-10-18 16:35:08,"0,327s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Inicio/a_InicioFlujo""))",Chrome 94.0.4606.81,,,2021-10-18 16:35:08,2021-10-18 16:35:08,"0,424s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Flujo 1/input_Cedula""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:35:08,2021-10-18 16:35:09,"0,971s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 1/input_Cedula""), cedulaRandom)",Chrome 94.0.4606.81,,,2021-10-18 16:35:09,2021-10-18 16:35:10,"1,000s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 1/input_Celular""), findTestData(""DatosUsuario"").getValue(2, 3))",Chrome 94.0.4606.81,,,2021-10-18 16:35:10,2021-10-18 16:35:11,"0,812s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 1/input_TyC""))",Chrome 94.0.4606.81,,,2021-10-18 16:35:11,2021-10-18 16:35:11,"0,577s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 1/button_Continuar-1""))",Chrome 94.0.4606.81,,,2021-10-18 16:35:11,2021-10-18 16:35:12,"0,582s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Flujo 2/input_Nombre""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:35:12,2021-10-18 16:35:13,"1,150s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 2/input_Nombre""), findTestData(""DatosUsuario"").getValue(2, 7))",Chrome 94.0.4606.81,,,2021-10-18 16:35:13,2021-10-18 16:35:14,"1,109s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 2/input_Apellido""), findTestData(""DatosUsuario"").getValue(2, 8))",Chrome 94.0.4606.81,,,2021-10-18 16:35:14,2021-10-18 16:35:15,"0,673s",PASSED
+"selectOptionByValue(findTestObject(""CreditoUruguayo/Flujo 2/select_Dia""), ""15"", false)",Chrome 94.0.4606.81,,,2021-10-18 16:35:15,2021-10-18 16:35:16,"0,706s",PASSED
+"selectOptionByValue(findTestObject(""CreditoUruguayo/Flujo 2/select_Mes""), ""10"", false)",Chrome 94.0.4606.81,,,2021-10-18 16:35:16,2021-10-18 16:35:16,"0,686s",PASSED
+"selectOptionByValue(findTestObject(""CreditoUruguayo/Flujo 2/select_Anio""), ""1970"", false)",Chrome 94.0.4606.81,,,2021-10-18 16:35:16,2021-10-18 16:35:17,"0,680s",PASSED
+delay(0.7),Chrome 94.0.4606.81,,,2021-10-18 16:35:17,2021-10-18 16:35:18,"0,736s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 2/input_Email""), findTestData(""DatosUsuario"").getValue(2, 6))",Chrome 94.0.4606.81,,,2021-10-18 16:35:18,2021-10-18 16:35:19,"0,862s",PASSED
+delay(0.7),Chrome 94.0.4606.81,,,2021-10-18 16:35:19,2021-10-18 16:35:19,"0,711s",PASSED
+"sendKeys(findTestObject(""CreditoUruguayo/Flujo 2/emailNoValidoFocus""), Keys.chord(BACK_SPACE))",Chrome 94.0.4606.81,,,2021-10-18 16:35:19,2021-10-18 16:35:20,"0,361s",PASSED
+"sendKeys(findTestObject(""CreditoUruguayo/Flujo 2/input_Email""), Keys.chord(TAB))",Chrome 94.0.4606.81,,,2021-10-18 16:35:20,2021-10-18 16:35:20,"0,694s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 2/Departamento_1""))",Chrome 94.0.4606.81,,,2021-10-18 16:35:20,2021-10-18 16:35:21,"0,482s",PASSED
+"sendKeys(findTestObject(null), Keys.chord(TAB))",Chrome 94.0.4606.81,,,2021-10-18 16:35:21,2021-10-18 16:35:21,"0,537s",PASSED
+"sendKeys(findTestObject(null), Keys.chord(TAB))",Chrome 94.0.4606.81,,,2021-10-18 16:35:21,2021-10-18 16:35:22,"0,321s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 2/Departamento_2""))",Chrome 94.0.4606.81,,,2021-10-18 16:35:22,2021-10-18 16:35:22,"0,459s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 2/input_Ingresos""), ""12000"")",Chrome 94.0.4606.81,,,2021-10-18 16:35:22,2021-10-18 16:35:23,"0,877s",PASSED
+"selectOptionByValue(findTestObject(""CreditoUruguayo/Flujo 2/select_Genero""), ""Male"", false)",Chrome 94.0.4606.81,,,2021-10-18 16:35:23,2021-10-18 16:35:24,"0,648s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 2/button_Continuar-2""))",Chrome 94.0.4606.81,,,2021-10-18 16:35:24,2021-10-18 16:35:24,"0,504s",PASSED
+"if (verifyElementPresent(findTestObject(""CreditoUruguayo/Flujo 3/div_SinOferta""), 0, OPTIONAL))",Chrome 94.0.4606.81,,,2021-10-18 16:35:24,2021-10-18 16:35:48,"23,448s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Flujo 3/select_FechaVencimiento""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:35:48,2021-10-18 16:35:55,"7,118s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 3/select_FechaVencimiento""))",Chrome 94.0.4606.81,,,2021-10-18 16:35:55,2021-10-18 16:35:55,"0,353s",PASSED
+"sendKeys(findTestObject(""CreditoUruguayo/Flujo 3/select_FechaVencimiento""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 94.0.4606.81,,,2021-10-18 16:35:55,2021-10-18 16:35:55,"0,391s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Flujo 3/select_Cuotas""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:35:55,2021-10-18 16:36:03,"7,442s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 3/select_Cuotas""))",Chrome 94.0.4606.81,,,2021-10-18 16:36:03,2021-10-18 16:36:03,"0,360s",PASSED
+"sendKeys(findTestObject(""CreditoUruguayo/Flujo 3/select_Cuotas""), Keys.chord(ARROW_DOWN, ENTER))",Chrome 94.0.4606.81,,,2021-10-18 16:36:03,2021-10-18 16:36:04,"0,366s",PASSED
+"selectOptionByLabel(findTestObject(""CreditoUruguayo/Flujo 3/select_Banco""), ""Itaú"", false)",Chrome 94.0.4606.81,,,2021-10-18 16:36:04,2021-10-18 16:36:04,"0,607s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 3/input_CuentaBancaria""), findTestData(""DatosUsuario"").getValue(2, 10))",Chrome 94.0.4606.81,,,2021-10-18 16:36:04,2021-10-18 16:36:05,"0,673s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 3/button_Continuar-3""))",Chrome 94.0.4606.81,,,2021-10-18 16:36:05,2021-10-18 16:36:05,"0,490s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Flujo 4/a_ConfirmarCredito""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:36:05,2021-10-18 16:36:07,"1,151s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 4/a_ConfirmarCredito""))",Chrome 94.0.4606.81,,,2021-10-18 16:36:07,2021-10-18 16:36:07,"0,355s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Flujo 5/input_Direccion""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:36:07,2021-10-18 16:36:08,"1,141s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 5/input_Direccion""), findTestData(""DatosUsuario"").getValue(2, 9))",Chrome 94.0.4606.81,,,2021-10-18 16:36:08,2021-10-18 16:36:09,"1,000s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 5/button_CrearContrasena""))",Chrome 94.0.4606.81,,,2021-10-18 16:36:09,2021-10-18 16:36:09,"0,376s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 5/input_Contrasena""), findTestData(""DatosUsuario"").getValue(2, 11))",Chrome 94.0.4606.81,,,2021-10-18 16:36:09,2021-10-18 16:36:10,"0,794s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 5/input_ConfirmarContrasena""), findTestData(""DatosUsuario"").getValue(2, 11))",Chrome 94.0.4606.81,,,2021-10-18 16:36:10,2021-10-18 16:36:11,"0,799s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 5/input_TyC-2""))",Chrome 94.0.4606.81,,,2021-10-18 16:36:11,2021-10-18 16:36:12,"0,564s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 5/button_Continuar-4""))",Chrome 94.0.4606.81,,,2021-10-18 16:36:12,2021-10-18 16:36:12,"0,581s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:36:12,2021-10-18 16:36:17,"5,146s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 6/button_QuieroQueMeLlamen""))",Chrome 94.0.4606.81,,,2021-10-18 16:36:17,2021-10-18 16:36:18,"0,367s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Flujo 7/a_Finalizar""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:36:18,2021-10-18 16:36:18,"0,585s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Flujo 7/a_Finalizar""))",Chrome 94.0.4606.81,,,2021-10-18 16:36:18,2021-10-18 16:36:19,"0,968s",PASSED

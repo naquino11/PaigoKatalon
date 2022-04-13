@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20211020_164725</name>
+   <tag></tag>
+   <displayName>20211020_164725</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20211020_164725/Primera Venta/Credito Uruguayo/20211020_164726</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Service</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Web Service</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20211020_164725/Primera Venta/UinUin/20211020_164728</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Service</groupName>
+            <profileName>Dev</profileName>
+            <runConfigurationId>Web Service</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20211020_164725/Primera Venta/Volvé/20211020_164730</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Service</groupName>
+            <profileName>Dev</profileName>
+            <runConfigurationId>Web Service</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/Regresión/Primera Venta-Verificación-Desembolso</testSuiteCollectionId>
+</ReportCollectionEntity>

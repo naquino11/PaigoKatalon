@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UinUin" time="154.306" tests="6" failures="2" errors="0">
+   <testsuite name="UinUin" tests="6" failures="2" errors="0" time="154.306" skipped="0" timestamp="2021-10-20 15:49:07" hostname="nicolas.aquino - ip-192-168-0-142.ec2.internal" id="Test Suites/Primera Venta/UinUin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211020_154859\\Primera Venta\\UinUin\\20211020_154900"/>
+         <property name="logFiles" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211020_154859\\Primera Venta\\UinUin\\20211020_154900\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211020_154859\\Primera Venta\\UinUin\\20211020_154900\\1634755899604.png"/>
+         <property name="hostName" value="nicolas.aquino - ip-192-168-0-142.ec2.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.0.142"/>
+         <property name="sessionId" value="95c243ec64b576aff62a3df7057213ed"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/General/Generar cedula random" time="3.924" classname="Test Cases/General/Generar cedula random" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:49:07 - [TEST_CASE][PASSED] - Test Cases/General/Generar cedula random: Test Cases/General/Generar cedula random
+
+2021-10-20 15:49:07 - [TEST_STEP][PASSED] - openBrowser("https://picandocodigo.github.io/ci_js/"): Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-20 15:49:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-20 15:49:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-20 15:49:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-20 15:49:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-20 15:49:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-20 15:49:10 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-20 15:49:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-20 15:49:10 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '70297265'
+
+2021-10-20 15:49:11 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '70297265']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UinUin/UU - Flujo Web" time="74.89" classname="Test Cases/UinUin/UU - Flujo Web" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:49:11 - [TEST_CASE][PASSED] - Test Cases/UinUin/UU - Flujo Web: Test Cases/UinUin/UU - Flujo Web
+
+2021-10-20 15:49:11 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-20 15:49:11 - [MESSAGE][PASSED] - Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-20 15:49:11 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2021-10-20 15:49:11 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2021-10-20 15:49:11 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-10-20 15:49:11 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-10-20 15:49:11 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-10-20 15:49:11 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2021-10-20 15:49:11 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-10-20 15:49:11 - [TEST_STEP][PASSED] - navigateToUrl(UinUin): Navigate to 'https://dev-www.uinuin.com.uy' successfully
+
+2021-10-20 15:49:17 - [MESSAGE][PASSED] - Navigate to 'https://dev-www.uinuin.com.uy' successfully
+
+2021-10-20 15:49:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Inicio/a_ComienzoFlujo"), 0): Object 'Object Repository/UinUin/Inicio/a_ComienzoFlujo' is present
+
+2021-10-20 15:49:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:49:17 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Inicio/a_ComienzoFlujo' is present
+
+2021-10-20 15:49:17 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Inicio/a_ComienzoFlujo")): Object: 'Object Repository/UinUin/Inicio/a_ComienzoFlujo' is clicked on
+
+2021-10-20 15:49:18 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Inicio/a_ComienzoFlujo' is clicked on
+
+2021-10-20 15:49:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 1/input_Cedula"), 0): Object 'Object Repository/UinUin/Flujo 1/input_Cedula' is present
+
+2021-10-20 15:49:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:49:19 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 1/input_Cedula' is present
+
+2021-10-20 15:49:19 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 1/input_Cedula"), cedulaRandom): Text '70297265' is set on object 'Object Repository/UinUin/Flujo 1/input_Cedula'
+
+2021-10-20 15:49:20 - [MESSAGE][PASSED] - Text '70297265' is set on object 'Object Repository/UinUin/Flujo 1/input_Cedula'
+
+2021-10-20 15:49:20 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 1/input_Celular"), findTestData("DatosUsuario").getValue(2, 3)): Text '94040738' is set on object 'Object Repository/UinUin/Flujo 1/input_Celular'
+
+2021-10-20 15:49:21 - [MESSAGE][PASSED] - Text '94040738' is set on object 'Object Repository/UinUin/Flujo 1/input_Celular'
+
+2021-10-20 15:49:21 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 1/input_TyC-1")): Object: 'Object Repository/UinUin/Flujo 1/input_TyC-1' is clicked on
+
+2021-10-20 15:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 1/input_TyC-1' is clicked on
+
+2021-10-20 15:49:21 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 1/button_Continuar-1")): Object: 'Object Repository/UinUin/Flujo 1/button_Continuar-1' is clicked on
+
+2021-10-20 15:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 1/button_Continuar-1' is clicked on
+
+2021-10-20 15:49:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 2/input_Nombre"), 0): Object 'Object Repository/UinUin/Flujo 2/input_Nombre' is present
+
+2021-10-20 15:49:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 2/input_Nombre' is present
+
+2021-10-20 15:49:23 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 2/input_Nombre"), findTestData("DatosUsuario").getValue(2, 7)): Text 'Nicolas' is set on object 'Object Repository/UinUin/Flujo 2/input_Nombre'
+
+2021-10-20 15:49:24 - [MESSAGE][PASSED] - Text 'Nicolas' is set on object 'Object Repository/UinUin/Flujo 2/input_Nombre'
+
+2021-10-20 15:49:24 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 2/input_Apellido"), findTestData("DatosUsuario").getValue(2, 8)): Text 'Aquino' is set on object 'Object Repository/UinUin/Flujo 2/input_Apellido'
+
+2021-10-20 15:49:24 - [MESSAGE][PASSED] - Text 'Aquino' is set on object 'Object Repository/UinUin/Flujo 2/input_Apellido'
+
+2021-10-20 15:49:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UinUin/Flujo 2/select_Dia"), "15", false): All options with value '15' are selected in object 'Object Repository/UinUin/Flujo 2/select_Dia' 
+
+2021-10-20 15:49:25 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/UinUin/Flujo 2/select_Dia' 
+
+2021-10-20 15:49:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UinUin/Flujo 2/select_Mes"), "10", false): All options with value '10' are selected in object 'Object Repository/UinUin/Flujo 2/select_Mes' 
+
+2021-10-20 15:49:26 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/UinUin/Flujo 2/select_Mes' 
+
+2021-10-20 15:49:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UinUin/Flujo 2/select_Anio"), "1970", false): All options with value '1970' are selected in object 'Object Repository/UinUin/Flujo 2/select_Anio' 
+
+2021-10-20 15:49:26 - [MESSAGE][PASSED] - All options with value '1970' are selected in object 'Object Repository/UinUin/Flujo 2/select_Anio' 
+
+2021-10-20 15:49:26 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2021-10-20 15:49:27 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2021-10-20 15:49:27 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 2/input_Email"), findTestData("DatosUsuario").getValue(2, 6)): Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/UinUin/Flujo 2/input_Email'
+
+2021-10-20 15:49:28 - [MESSAGE][PASSED] - Text 'nicolas.aquino@paigo.com.uyy' is set on object 'Object Repository/UinUin/Flujo 2/input_Email'
+
+2021-10-20 15:49:28 - [TEST_STEP][PASSED] - delay(0.7): Delayed 0,7 second(s)
+
+2021-10-20 15:49:29 - [MESSAGE][PASSED] - Delayed 0,7 second(s)
+
+2021-10-20 15:49:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 2/emailNoValidoFocus"), Keys.chord(BACK_SPACE)): Keys 'BACK_SPACE + ' sent to object: 'Object Repository/UinUin/Flujo 2/emailNoValidoFocus'
+
+2021-10-20 15:49:29 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: 'Object Repository/UinUin/Flujo 2/emailNoValidoFocus'
+
+2021-10-20 15:49:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 2/input_Email"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/UinUin/Flujo 2/input_Email'
+
+2021-10-20 15:49:30 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/UinUin/Flujo 2/input_Email'
+
+2021-10-20 15:49:30 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 2/select_Departamento")): Object: 'Object Repository/UinUin/Flujo 2/select_Departamento' is clicked on
+
+2021-10-20 15:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 2/select_Departamento' is clicked on
+
+2021-10-20 15:49:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 2/select_Departamento"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 2/select_Departamento'
+
+2021-10-20 15:49:30 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 2/select_Departamento'
+
+2021-10-20 15:49:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject(null), Keys.chord(TAB, TAB)): Keys 'TAB + TAB + ' sent to object: 'tempBody'
+
+2021-10-20 15:49:30 - [MESSAGE][WARNING] - Test object id is null
+
+2021-10-20 15:49:30 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2021-10-20 15:49:31 - [MESSAGE][PASSED] - Keys 'TAB + TAB + ' sent to object: 'tempBody'
+
+2021-10-20 15:49:31 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 2/input_Ingresos"), "120000"): Text '120000' is set on object 'Object Repository/UinUin/Flujo 2/input_Ingresos'
+
+2021-10-20 15:49:32 - [MESSAGE][PASSED] - Text '120000' is set on object 'Object Repository/UinUin/Flujo 2/input_Ingresos'
+
+2021-10-20 15:49:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UinUin/Flujo 2/select_Genero"), "Male", false): All options with value 'Male' are selected in object 'Object Repository/UinUin/Flujo 2/select_Genero' 
+
+2021-10-20 15:49:32 - [MESSAGE][PASSED] - All options with value 'Male' are selected in object 'Object Repository/UinUin/Flujo 2/select_Genero' 
+
+2021-10-20 15:49:32 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 2/button_Continuar-2")): Object: 'Object Repository/UinUin/Flujo 2/button_Continuar-2' is clicked on
+
+2021-10-20 15:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 2/button_Continuar-2' is clicked on
+
+2021-10-20 15:49:33 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("UinUin/Flujo 3/div_SinOferta"), 0, OPTIONAL)): null
+
+2021-10-20 15:49:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:49:50 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 3/div_SinOferta' is present
+
+2021-10-20 15:49:50 - [TEST_STEP][PASSED] - database.query.connectDB(DB, "processor_uy_pago_despues", "3306", "root", "r{OD_XIn(Ec]"): database.query.connectDB is PASSED
+
+2021-10-20 15:49:52 - [MESSAGE][PASSED] - database.query.connectDB is PASSED
+
+2021-10-20 15:49:52 - [TEST_STEP][PASSED] - database.query.execute(UPDATE ScoringSourceQualification S INNER JOIN Client C ON C.id = S.clientId INNER JOIN Person P ON P.id = C.personId INNER JOIN Entity E ON E.id = P.id INNER JOIN Brand B ON B.id = C.brandId AND B.name = 'UinUin' SET qualification = 	(CASE 	    WHEN sourceType = 'Person' THEN 'M3***' 	    WHEN sourceType = 'RiskCentral' THEN 'RISKCENTRAL_1' 		WHEN sourceType = 'RCTiers' THEN 'RCTG1' 	    WHEN S.sourceType = 'Background' THEN CONCAT('PX2' , RIGHT(S.qualification, locate('-', S.qualification,4))) 	    ELSE qualification     END) WHERE E.legalId = $GlobalVariable.cedulaRandom AND S.date = DATE(NOW());): database.query.execute is PASSED
+
+2021-10-20 15:49:53 - [MESSAGE][PASSED] - database.query.execute is PASSED
+
+2021-10-20 15:49:53 - [TEST_STEP][PASSED] - database.query.closeDatabaseConnection(): database.query.closeDatabaseConnection is PASSED
+
+2021-10-20 15:49:53 - [MESSAGE][PASSED] - database.query.closeDatabaseConnection is PASSED
+
+2021-10-20 15:49:53 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2021-10-20 15:49:53 - [MESSAGE][PASSED] - Navigate back successfully
+
+2021-10-20 15:49:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-10-20 15:49:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-10-20 15:49:54 - [TEST_STEP][PASSED] - click(findTestObject("CreditoUruguayo/Flujo 2/button_Continuar-2")): Object: 'Object Repository/CreditoUruguayo/Flujo 2/button_Continuar-2' is clicked on
+
+2021-10-20 15:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/CreditoUruguayo/Flujo 2/button_Continuar-2' is clicked on
+
+2021-10-20 15:49:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-10-20 15:49:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-10-20 15:49:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 3/select_Vencimiento"), 0): Object 'Object Repository/UinUin/Flujo 3/select_Vencimiento' is present
+
+2021-10-20 15:49:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:50:07 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 3/select_Vencimiento' is present
+
+2021-10-20 15:50:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 3/select_Vencimiento")): Object: 'Object Repository/UinUin/Flujo 3/select_Vencimiento' is clicked on
+
+2021-10-20 15:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 3/select_Vencimiento' is clicked on
+
+2021-10-20 15:50:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 3/select_Vencimiento"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 3/select_Vencimiento'
+
+2021-10-20 15:50:08 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 3/select_Vencimiento'
+
+2021-10-20 15:50:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 3/select_Cuotas"), 0): Object 'Object Repository/UinUin/Flujo 3/select_Cuotas' is present
+
+2021-10-20 15:50:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:50:18 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 3/select_Cuotas' is present
+
+2021-10-20 15:50:18 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 3/select_Cuotas")): Object: 'Object Repository/UinUin/Flujo 3/select_Cuotas' is clicked on
+
+2021-10-20 15:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 3/select_Cuotas' is clicked on
+
+2021-10-20 15:50:19 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UinUin/Flujo 3/select_Cuotas"), Keys.chord(ARROW_DOWN, ENTER)): Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 3/select_Cuotas'
+
+2021-10-20 15:50:19 - [MESSAGE][PASSED] - Keys 'DOWN + ENTER + ' sent to object: 'Object Repository/UinUin/Flujo 3/select_Cuotas'
+
+2021-10-20 15:50:19 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 3/button_Continuar-3")): Object: 'Object Repository/UinUin/Flujo 3/button_Continuar-3' is clicked on
+
+2021-10-20 15:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 3/button_Continuar-3' is clicked on
+
+2021-10-20 15:50:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 4/a_ConfirmarCredito"), 0): Object 'Object Repository/UinUin/Flujo 4/a_ConfirmarCredito' is present
+
+2021-10-20 15:50:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:50:20 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 4/a_ConfirmarCredito' is present
+
+2021-10-20 15:50:20 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 4/a_ConfirmarCredito")): Object: 'Object Repository/UinUin/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-10-20 15:50:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 4/a_ConfirmarCredito' is clicked on
+
+2021-10-20 15:50:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UinUin/Flujo 5/input_Direccion"), 0): Object 'Object Repository/UinUin/Flujo 5/input_Direccion' is present
+
+2021-10-20 15:50:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:50:22 - [MESSAGE][PASSED] - Object 'Object Repository/UinUin/Flujo 5/input_Direccion' is present
+
+2021-10-20 15:50:22 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 5/input_Direccion"), findTestData("DatosUsuario").getValue(2, 9)): Text 'Calle falsa 123' is set on object 'Object Repository/UinUin/Flujo 5/input_Direccion'
+
+2021-10-20 15:50:23 - [MESSAGE][PASSED] - Text 'Calle falsa 123' is set on object 'Object Repository/UinUin/Flujo 5/input_Direccion'
+
+2021-10-20 15:50:23 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 5/button_CrearContrasena")): Object: 'Object Repository/UinUin/Flujo 5/button_CrearContrasena' is clicked on
+
+2021-10-20 15:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 5/button_CrearContrasena' is clicked on
+
+2021-10-20 15:50:23 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 5/input_Contrasena"), findTestData("DatosUsuario").getValue(2, 11)): Text 'paigo123' is set on object 'Object Repository/UinUin/Flujo 5/input_Contrasena'
+
+2021-10-20 15:50:24 - [MESSAGE][PASSED] - Text 'paigo123' is set on object 'Object Repository/UinUin/Flujo 5/input_Contrasena'
+
+2021-10-20 15:50:24 - [TEST_STEP][PASSED] - setText(findTestObject("UinUin/Flujo 5/input_ConfirmarContrasena"), findTestData("DatosUsuario").getValue(2, 11)): Text 'paigo123' is set on object 'Object Repository/UinUin/Flujo 5/input_ConfirmarContrasena'
+
+2021-10-20 15:50:25 - [MESSAGE][PASSED] - Text 'paigo123' is set on object 'Object Repository/UinUin/Flujo 5/input_ConfirmarContrasena'
+
+2021-10-20 15:50:25 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 5/input_TyC-2")): Object: 'Object Repository/UinUin/Flujo 5/input_TyC-2' is clicked on
+
+2021-10-20 15:50:25 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 5/input_TyC-2' is clicked on
+
+2021-10-20 15:50:25 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("UinUin/Flujo 5/button_Continuar-4")): Object: 'Object Repository/UinUin/Flujo 5/button_Continuar-4' is clicked on
+
+2021-10-20 15:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/UinUin/Flujo 5/button_Continuar-4' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Logueo" time="6.249" classname="Test Cases/Admin/Logueo" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:50:26 - [TEST_CASE][PASSED] - Test Cases/Admin/Logueo: Test Cases/Admin/Logueo
+
+2021-10-20 15:50:26 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://dev-www.uinuin.com.uy/aprobar/registro'
+
+2021-10-20 15:50:26 - [MESSAGE][PASSED] - Current window's url is: 'https://dev-www.uinuin.com.uy/aprobar/registro'
+
+2021-10-20 15:50:26 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 1
+
+2021-10-20 15:50:26 - [MESSAGE][PASSED] - Current window's index is: 1
+
+2021-10-20 15:50:26 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-10-20 15:50:26 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-10-20 15:50:26 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-10-20 15:50:26 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '2'
+
+2021-10-20 15:50:26 - [MESSAGE][PASSED] - Switched to window with index: '2'
+
+2021-10-20 15:50:26 - [TEST_STEP][PASSED] - navigateToUrl(Admin): Navigate to 'https://dev-admin-int.paigo.uy/login' successfully
+
+2021-10-20 15:50:30 - [MESSAGE][PASSED] - Navigate to 'https://dev-admin-int.paigo.uy/login' successfully
+
+2021-10-20 15:50:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-20 15:50:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-20 15:50:30 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Logueo/input_Usuario"), findTestData("DatosUsuario").getValue(2, 1)): Text 'gabriel.gayol@paigo.com.uy' is set on object 'Object Repository/Admin/Logueo/input_Usuario'
+
+2021-10-20 15:50:31 - [MESSAGE][PASSED] - Text 'gabriel.gayol@paigo.com.uy' is set on object 'Object Repository/Admin/Logueo/input_Usuario'
+
+2021-10-20 15:50:31 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Logueo/input_Contrasena"), findTestData("DatosUsuario").getValue(2, 2)): Text '12345678' is set on object 'Object Repository/Admin/Logueo/input_Contrasena'
+
+2021-10-20 15:50:32 - [MESSAGE][PASSED] - Text '12345678' is set on object 'Object Repository/Admin/Logueo/input_Contrasena'
+
+2021-10-20 15:50:32 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Logueo/button_Ingresar")): Object: 'Object Repository/Admin/Logueo/button_Ingresar' is clicked on
+
+2021-10-20 15:50:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Logueo/button_Ingresar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/UinUin/Creación Cuenta" time="10.311" classname="Test Cases/Admin/UinUin/Creación Cuenta" status="PASSED">
+         <system-out><![CDATA[2021-10-20 15:50:32 - [TEST_CASE][PASSED] - Test Cases/Admin/UinUin/Creación Cuenta: Test Cases/Admin/UinUin/Creación Cuenta
+
+2021-10-20 15:50:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Activación Cuenta/p_BUSCAR CLIENTES"), 0): Object 'Object Repository/Admin/Activación Cuenta/p_BUSCAR CLIENTES' is present
+
+2021-10-20 15:50:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:50:34 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Activación Cuenta/p_BUSCAR CLIENTES' is present
+
+2021-10-20 15:50:34 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Activación Cuenta/p_BUSCAR CLIENTES")): Object: 'Object Repository/Admin/Activación Cuenta/p_BUSCAR CLIENTES' is clicked on
+
+2021-10-20 15:50:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Activación Cuenta/p_BUSCAR CLIENTES' is clicked on
+
+2021-10-20 15:50:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Activación Cuenta/input_Cedula"), 0): Object 'Object Repository/Admin/Activación Cuenta/input_Cedula' is present
+
+2021-10-20 15:50:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:50:35 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Activación Cuenta/input_Cedula' is present
+
+2021-10-20 15:50:35 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Activación Cuenta/input_Cedula"), cedulaRandom): Text '70297265' is set on object 'Object Repository/Admin/Activación Cuenta/input_Cedula'
+
+2021-10-20 15:50:36 - [MESSAGE][PASSED] - Text '70297265' is set on object 'Object Repository/Admin/Activación Cuenta/input_Cedula'
+
+2021-10-20 15:50:36 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Activación Cuenta/select_SeleccionarMarca"), Marca_UU, false): All options with label 'UinUin' are selected in object 'Object Repository/Admin/Activación Cuenta/select_SeleccionarMarca' 
+
+2021-10-20 15:50:36 - [MESSAGE][PASSED] - All options with label 'UinUin' are selected in object 'Object Repository/Admin/Activación Cuenta/select_SeleccionarMarca' 
+
+2021-10-20 15:50:36 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Activación Cuenta/button_Obtener")): Object: 'Object Repository/Admin/Activación Cuenta/button_Obtener' is clicked on
+
+2021-10-20 15:50:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Activación Cuenta/button_Obtener' is clicked on
+
+2021-10-20 15:50:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Activación Cuenta/button_Guardar"), 0): Object 'Object Repository/Admin/Activación Cuenta/button_Guardar' is present
+
+2021-10-20 15:50:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:50:38 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Activación Cuenta/button_Guardar' is present
+
+2021-10-20 15:50:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Activación Cuenta/input_IngresosReferencia"), Keys.chord(TAB, TAB, SPACE)): Keys 'TAB + TAB + SPACE + ' sent to object: 'Object Repository/Admin/Activación Cuenta/input_IngresosReferencia'
+
+2021-10-20 15:50:39 - [MESSAGE][PASSED] - Keys 'TAB + TAB + SPACE + ' sent to object: 'Object Repository/Admin/Activación Cuenta/input_IngresosReferencia'
+
+2021-10-20 15:50:39 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Creación Cuenta/input_CuentaBancaria"), "1234567"): Text '1234567' is set on object 'Object Repository/Admin/Creación Cuenta/input_CuentaBancaria'
+
+2021-10-20 15:50:40 - [MESSAGE][PASSED] - Text '1234567' is set on object 'Object Repository/Admin/Creación Cuenta/input_CuentaBancaria'
+
+2021-10-20 15:50:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Creación Cuenta/button_AgregarCuenta")): Object: 'Object Repository/Admin/Creación Cuenta/button_AgregarCuenta' is clicked on
+
+2021-10-20 15:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Creación Cuenta/button_AgregarCuenta' is clicked on
+
+2021-10-20 15:50:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Activación Cuenta/button_Guardar")): Object: 'Object Repository/Admin/Activación Cuenta/button_Guardar' is clicked on
+
+2021-10-20 15:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Activación Cuenta/button_Guardar' is clicked on
+
+2021-10-20 15:50:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Admin/Activación Cuenta/p_ValidacionGuardado")): Object 'Object Repository/Admin/Activación Cuenta/p_ValidacionGuardado' is visible
+
+2021-10-20 15:50:42 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Activación Cuenta/p_ValidacionGuardado' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/UinUin/Verificación" time="56.966" classname="Test Cases/Admin/UinUin/Verificación" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin/UinUin/Verificación FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'VERIFICACIÓN COMPLETADA' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$21.call(Unknown Source)
+	at Verificación.run(Verificación:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'VERIFICACIÓN COMPLETADA' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-10-20 15:50:42 - [TEST_CASE][FAILED] - Test Cases/Admin/UinUin/Verificación: Test Cases/Admin/UinUin/Verificación FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'VERIFICACIÓN COMPLETADA' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$21.call(Unknown Source)
+	at Verificación.run(Verificación:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'VERIFICACIÓN COMPLETADA' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-10-20 15:50:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Verificacion/p_CreditosEnVerificacion"), 0): Object 'Object Repository/Admin/Verificacion/p_CreditosEnVerificacion' is present
+
+2021-10-20 15:50:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:50:43 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/p_CreditosEnVerificacion' is present
+
+2021-10-20 15:50:43 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/p_CreditosEnVerificacion")): Object: 'Object Repository/Admin/Verificacion/p_CreditosEnVerificacion' is clicked on
+
+2021-10-20 15:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/p_CreditosEnVerificacion' is clicked on
+
+2021-10-20 15:50:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/select_SeleccionarMarca"), 0): Object 'Object Repository/Admin/Verificacion/select_SeleccionarMarca' is visible
+
+2021-10-20 15:50:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:50:44 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/select_SeleccionarMarca' is visible
+
+2021-10-20 15:50:44 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Admin/Verificacion/select_SeleccionarMarca"), Marca_UU, false): All options with label 'UinUin' are selected in object 'Object Repository/Admin/Verificacion/select_SeleccionarMarca' 
+
+2021-10-20 15:50:44 - [MESSAGE][PASSED] - All options with label 'UinUin' are selected in object 'Object Repository/Admin/Verificacion/select_SeleccionarMarca' 
+
+2021-10-20 15:50:44 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Obtener")): Object: 'Object Repository/Admin/Verificacion/button_Obtener' is clicked on
+
+2021-10-20 15:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Obtener' is clicked on
+
+2021-10-20 15:50:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/input_FiltrarCI"), 0): Object 'Object Repository/Admin/Verificacion/input_FiltrarCI' is visible
+
+2021-10-20 15:50:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:51:05 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/input_FiltrarCI' is visible
+
+2021-10-20 15:51:05 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Verificacion/input_FiltrarCI"), cedulaRandom): Text '70297265' is set on object 'Object Repository/Admin/Verificacion/input_FiltrarCI'
+
+2021-10-20 15:51:06 - [MESSAGE][PASSED] - Text '70297265' is set on object 'Object Repository/Admin/Verificacion/input_FiltrarCI'
+
+2021-10-20 15:51:06 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Retomar VI")): Object: 'Object Repository/Admin/Verificacion/button_Retomar VI' is clicked on
+
+2021-10-20 15:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Retomar VI' is clicked on
+
+2021-10-20 15:51:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Admin/Verificacion/button_Subir_1"), 0): Object 'Object Repository/Admin/Verificacion/button_Subir_1' is present
+
+2021-10-20 15:51:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:51:15 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_Subir_1' is present
+
+2021-10-20 15:51:15 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Subir_1")): Object: 'Object Repository/Admin/Verificacion/button_Subir_1' is clicked on
+
+2021-10-20 15:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Subir_1' is clicked on
+
+2021-10-20 15:51:16 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Admin/Verificacion/input_File"), "C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg"): File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:51:16 - [MESSAGE][PASSED] - File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:51:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_1"), 0): Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_1' is clickable
+
+2021-10-20 15:51:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_1' is clickable
+
+2021-10-20 15:51:17 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_1")): Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_1' is clicked on
+
+2021-10-20 15:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_1' is clicked on
+
+2021-10-20 15:51:17 - [TEST_STEP][PASSED] - check(findTestObject("Admin/Verificacion/input_ConfirmarImagen_1")): Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_1' is checked
+
+2021-10-20 15:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_1' is checked
+
+2021-10-20 15:51:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/button_Subir_2"), 0): Object 'Object Repository/Admin/Verificacion/button_Subir_2' is visible
+
+2021-10-20 15:51:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:51:19 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_Subir_2' is visible
+
+2021-10-20 15:51:19 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Subir_2")): Object: 'Object Repository/Admin/Verificacion/button_Subir_2' is clicked on
+
+2021-10-20 15:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Subir_2' is clicked on
+
+2021-10-20 15:51:20 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Admin/Verificacion/input_File"), "C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg"): File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:51:20 - [MESSAGE][PASSED] - File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:51:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_2"), 0): Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_2' is clickable
+
+2021-10-20 15:51:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:51:21 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_2' is clickable
+
+2021-10-20 15:51:21 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_2")): Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_2' is clicked on
+
+2021-10-20 15:51:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_2' is clicked on
+
+2021-10-20 15:51:21 - [TEST_STEP][PASSED] - check(findTestObject("Admin/Verificacion/input_ConfirmarImagen_2")): Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_2' is checked
+
+2021-10-20 15:51:23 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_2' is checked
+
+2021-10-20 15:51:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/button_Subir_3"), 0): Object 'Object Repository/Admin/Verificacion/button_Subir_3' is visible
+
+2021-10-20 15:51:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:51:23 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_Subir_3' is visible
+
+2021-10-20 15:51:23 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Subir_3")): Object: 'Object Repository/Admin/Verificacion/button_Subir_3' is clicked on
+
+2021-10-20 15:51:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Subir_3' is clicked on
+
+2021-10-20 15:51:24 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Admin/Verificacion/input_File"), "C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg"): File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:51:24 - [MESSAGE][PASSED] - File 'C:\Users\nicolas.aquino\Desktop\Trabajo\TomMeme.jpg' sent to object: 'Object Repository/Admin/Verificacion/input_File'
+
+2021-10-20 15:51:24 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_3"), 0): Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_3' is clickable
+
+2021-10-20 15:51:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:51:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_3' is clickable
+
+2021-10-20 15:51:25 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_ConfirmarSubidaImagen_3")): Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_3' is clicked on
+
+2021-10-20 15:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_ConfirmarSubidaImagen_3' is clicked on
+
+2021-10-20 15:51:25 - [TEST_STEP][PASSED] - check(findTestObject("Admin/Verificacion/input_ConfirmarImagen_3")): Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_3' is checked
+
+2021-10-20 15:51:26 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/input_ConfirmarImagen_3' is checked
+
+2021-10-20 15:51:26 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Verificacion/input_NumeroSerieCI"), "123456"): Text '123456' is set on object 'Object Repository/Admin/Verificacion/input_NumeroSerieCI'
+
+2021-10-20 15:51:28 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Admin/Verificacion/input_NumeroSerieCI'
+
+2021-10-20 15:51:28 - [TEST_STEP][PASSED] - url = getUrl(): Current window's url is: 'https://dev-admin-int.paigo.uy/admin/iv?request=9e3b2cc9-0534-4276-aca8-4520c319faf5&brand=UinUin&moment=ManualVerification&reason=VerificationNeeded'
+
+2021-10-20 15:51:28 - [MESSAGE][PASSED] - Current window's url is: 'https://dev-admin-int.paigo.uy/admin/iv?request=9e3b2cc9-0534-4276-aca8-4520c319faf5&brand=UinUin&moment=ManualVerification&reason=VerificationNeeded'
+
+2021-10-20 15:51:28 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Obtener")): Object: 'Object Repository/Admin/Verificacion/button_Obtener' is clicked on
+
+2021-10-20 15:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Obtener' is clicked on
+
+2021-10-20 15:51:28 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2021-10-20 15:51:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-10-20 15:51:33 - [TEST_STEP][PASSED] - switchToWindowUrl(url): Switched to window with url: 'https://dev-admin-int.paigo.uy/admin/iv?request=9e3b2cc9-0534-4276-aca8-4520c319faf5&brand=UinUin&moment=ManualVerification&reason=VerificationNeeded'
+
+2021-10-20 15:51:33 - [MESSAGE][PASSED] - Switched to window with url: 'https://dev-admin-int.paigo.uy/admin/iv?request=9e3b2cc9-0534-4276-aca8-4520c319faf5&brand=UinUin&moment=ManualVerification&reason=VerificationNeeded'
+
+2021-10-20 15:51:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Verificacion/button_Obtener"), Keys.chord(TAB, "14021970")): Keys 'TAB + 14021970' sent to object: 'Object Repository/Admin/Verificacion/button_Obtener'
+
+2021-10-20 15:51:33 - [MESSAGE][PASSED] - Keys 'TAB + 14021970' sent to object: 'Object Repository/Admin/Verificacion/button_Obtener'
+
+2021-10-20 15:51:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Verificacion/input_FechaNacimiento"), Keys.chord(TAB, "14022002")): Keys 'TAB + 14022002' sent to object: 'Object Repository/Admin/Verificacion/input_FechaNacimiento'
+
+2021-10-20 15:51:34 - [MESSAGE][PASSED] - Keys 'TAB + 14022002' sent to object: 'Object Repository/Admin/Verificacion/input_FechaNacimiento'
+
+2021-10-20 15:51:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Verificacion/input_FechaEmisionCI"), Keys.chord(TAB, "14022040")): Keys 'TAB + 14022040' sent to object: 'Object Repository/Admin/Verificacion/input_FechaEmisionCI'
+
+2021-10-20 15:51:34 - [MESSAGE][PASSED] - Keys 'TAB + 14022040' sent to object: 'Object Repository/Admin/Verificacion/input_FechaEmisionCI'
+
+2021-10-20 15:51:34 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_ConfirmarIdentidad")): Object: 'Object Repository/Admin/Verificacion/button_ConfirmarIdentidad' is clicked on
+
+2021-10-20 15:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_ConfirmarIdentidad' is clicked on
+
+2021-10-20 15:51:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Verificacion/button_Confirmar"), 0): Object 'Object Repository/Admin/Verificacion/button_Confirmar' is visible
+
+2021-10-20 15:51:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:51:35 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Verificacion/button_Confirmar' is visible
+
+2021-10-20 15:51:35 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Verificacion/button_Confirmar")): Object: 'Object Repository/Admin/Verificacion/button_Confirmar' is clicked on
+
+2021-10-20 15:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Verificacion/button_Confirmar' is clicked on
+
+2021-10-20 15:51:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-10-20 15:51:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-10-20 15:51:39 - [TEST_STEP][FAILED] - verifyTextPresent("VERIFICACIÓN COMPLETADA", false): Unable to verify text 'VERIFICACIÓN COMPLETADA' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'VERIFICACIÓN COMPLETADA' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$21.call(Unknown Source)
+	at Verificación.run(Verificación:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'VERIFICACIÓN COMPLETADA' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-10-20 15:51:39 - [MESSAGE][FAILED] - Text 'VERIFICACIÓN COMPLETADA' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'VERIFICACIÓN COMPLETADA' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$21.call(Unknown Source)
+	at Verificación.run(Verificación:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+)
+
+2021-10-20 15:51:39 - [MESSAGE][FAILED] - Unable to verify text 'VERIFICACIÓN COMPLETADA' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'VERIFICACIÓN COMPLETADA' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$21.call(Unknown Source)
+	at Verificación.run(Verificación:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'VERIFICACIÓN COMPLETADA' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211020_154859\\Primera Venta\\UinUin\\20211020_154900\\1634755899604.png]]]]></system-out>
+         <system-err><![CDATA[2021-10-20 15:50:42 - [TEST_CASE][FAILED] - Test Cases/Admin/UinUin/Verificación: Test Cases/Admin/UinUin/Verificación FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'VERIFICACIÓN COMPLETADA' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$21.call(Unknown Source)
+	at Verificación.run(Verificación:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'VERIFICACIÓN COMPLETADA' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/UinUin/Desembolso" time="1.644" classname="Test Cases/Admin/UinUin/Desembolso" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin/UinUin/Desembolso FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'UinUin' of object 'Object Repository/Admin/Desembolso/select_Marca' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$14.call(Unknown Source)
+	at Desembolso.run(Desembolso:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NB-IT11', ip: '192.168.0.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NICOLA~1.AQU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 95c243ec64b576aff62a3df7057213ed
+*** Element info: {Using=xpath, value=//select[@id='brand']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1014)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:887)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:883)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-10-20 15:51:39 - [TEST_CASE][FAILED] - Test Cases/Admin/UinUin/Desembolso: Test Cases/Admin/UinUin/Desembolso FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'UinUin' of object 'Object Repository/Admin/Desembolso/select_Marca' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$14.call(Unknown Source)
+	at Desembolso.run(Desembolso:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NB-IT11', ip: '192.168.0.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NICOLA~1.AQU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 95c243ec64b576aff62a3df7057213ed
+*** Element info: {Using=xpath, value=//select[@id='brand']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1014)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:887)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:883)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-10-20 15:51:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Admin/Desembolso/p_DESEMBOLSO"), 0): Object 'Object Repository/Admin/Desembolso/p_DESEMBOLSO' is visible
+
+2021-10-20 15:51:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-10-20 15:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Desembolso/p_DESEMBOLSO' is visible
+
+2021-10-20 15:51:40 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Admin/Desembolso/p_DESEMBOLSO")): Object: 'Object Repository/Admin/Desembolso/p_DESEMBOLSO' is clicked on
+
+2021-10-20 15:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Desembolso/p_DESEMBOLSO' is clicked on
+
+2021-10-20 15:51:41 - [TEST_STEP][FAILED] - selectOptionByLabel(findTestObject("Admin/Desembolso/select_Marca"), Marca_UU, false): Unable to select option by label 'UinUin' of object 'Object Repository/Admin/Desembolso/select_Marca'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'UinUin' of object 'Object Repository/Admin/Desembolso/select_Marca' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$14.call(Unknown Source)
+	at Desembolso.run(Desembolso:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NB-IT11', ip: '192.168.0.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NICOLA~1.AQU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 95c243ec64b576aff62a3df7057213ed
+*** Element info: {Using=xpath, value=//select[@id='brand']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1014)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:887)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:883)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$14.call(Unknown Source)
+	at Script1634752657478.run(Script1634752657478.groovy:35)
+	... 13 more
+)
+
+2021-10-20 15:51:41 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2021-10-20 15:51:41 - [MESSAGE][FAILED] - Unable to select option by label 'UinUin' of object 'Object Repository/Admin/Desembolso/select_Marca'  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'UinUin' of object 'Object Repository/Admin/Desembolso/select_Marca' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$14.call(Unknown Source)
+	at Desembolso.run(Desembolso:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NB-IT11', ip: '192.168.0.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NICOLA~1.AQU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 95c243ec64b576aff62a3df7057213ed
+*** Element info: {Using=xpath, value=//select[@id='brand']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1014)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:887)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:883)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$14.call(Unknown Source)
+	at Script1634752657478.run(Script1634752657478.groovy:35)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2021-10-20 15:51:39 - [TEST_CASE][FAILED] - Test Cases/Admin/UinUin/Desembolso: Test Cases/Admin/UinUin/Desembolso FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by label 'UinUin' of object 'Object Repository/Admin/Desembolso/select_Marca' 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.selectOptionByLabel(SelectOptionByLabelKeyword.groovy:98)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword.execute(SelectOptionByLabelKeyword.groovy:71)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByLabel(WebUiBuiltInKeywords.groovy:1230)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByLabel$14.call(Unknown Source)
+	at Desembolso.run(Desembolso:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=94.0.4606.81)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'NB-IT11', ip: '192.168.0.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\NICOLA~1.AQU\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:58922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 95c243ec64b576aff62a3df7057213ed
+*** Element info: {Using=xpath, value=//select[@id='brand']}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1014)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:909)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:887)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:883)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:720)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1363)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.doCall(SelectOptionByLabelKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByLabelKeyword$_selectOptionByLabel_closure1.call(SelectOptionByLabelKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-20 15:49:07 - [TEST_SUITE][FAILED] - UinUin: Test Cases/Admin/UinUin/Verificación FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'VERIFICACIÓN COMPLETADA' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$21.call(Unknown Source)
+	at Verificación.run(Verificación:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'VERIFICACIÓN COMPLETADA' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-10-20 15:49:07 - [TEST_SUITE][FAILED] - UinUin: Test Cases/Admin/UinUin/Verificación FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'VERIFICACIÓN COMPLETADA' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$21.call(Unknown Source)
+	at Verificación.run(Verificación:107)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634755740748.run(TempTestSuite1634755740748.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'VERIFICACIÓN COMPLETADA' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

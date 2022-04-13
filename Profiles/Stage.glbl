@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Stage</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'api-db-stage.paigo.local'</initValue>
+      <name>DB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-admin-int.paigo.uy/login'</initValue>
+      <name>Admin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-www.creditouruguayo.com.uy'</initValue>
+      <name>CreditoUruguayo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-www.uinuin.com.uy'</initValue>
+      <name>UinUin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-www.volve.com.uy'</initValue>
+      <name>Volve</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-credisol.paigo.uy'</initValue>
+      <name>Credisol</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

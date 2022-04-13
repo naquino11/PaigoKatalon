@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Chequeo DNIC</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4eebe90a-63f7-44f5-86e6-ea65e9006edf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76b47e2a-cef2-4f6e-b9f2-77ecfe13df59</id>
+      <masked>false</masked>
+      <name>ciValida</name>
+   </variable>
+</TestCaseEntity>

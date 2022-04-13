@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Volvé" time="52.105" tests="2" failures="1" errors="0">
+   <testsuite name="Volvé" tests="2" failures="1" errors="0" time="52.105" skipped="0" timestamp="2021-10-19 12:46:59" hostname="nicolas.aquino - ip-192-168-1-7.ec2.internal" id="Test Suites/Primera Venta/Volvé">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211019_124652\\Primera Venta\\Volv\u00E9\\20211019_124652"/>
+         <property name="logFiles" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211019_124652\\Primera Venta\\Volv\u00E9\\20211019_124652\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211019_124652\\Primera Venta\\Volv\u00E9\\20211019_124652\\1634658471084.png"/>
+         <property name="hostName" value="nicolas.aquino - ip-192-168-1-7.ec2.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Chrome 94.0.4606.81"/>
+         <property name="hostAddress" value="192.168.1.7"/>
+         <property name="sessionId" value="8fae7fe173a59424582844407ffe869d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/General/Generar cedula random" time="3.757" classname="Test Cases/General/Generar cedula random" status="PASSED">
+         <system-out><![CDATA[2021-10-19 12:46:59 - [TEST_CASE][PASSED] - Test Cases/General/Generar cedula random: Test Cases/General/Generar cedula random
+
+2021-10-19 12:46:59 - [TEST_STEP][PASSED] - openBrowser("https://picandocodigo.github.io/ci_js/"): Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-19 12:46:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-10-19 12:46:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-10-19 12:47:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-19 12:47:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-10-19 12:47:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-10-19 12:47:02 - [TEST_STEP][PASSED] - click(findTestObject("Generador de cedulas/botonGenerar")): Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-19 12:47:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Generador de cedulas/botonGenerar' is clicked on
+
+2021-10-19 12:47:02 - [TEST_STEP][PASSED] - cedulaRandom = getAttribute(findTestObject("Generador de cedulas/obtenerCedulaRandom"), "value"): Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '94429147'
+
+2021-10-19 12:47:02 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Generador de cedulas/obtenerCedulaRandom' is: '94429147']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Volve/VV - Flujo Web" time="48.103" classname="Test Cases/Volve/VV - Flujo Web" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Volve/VV - Flujo Web FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Volve/Flujo 1/div_Siguiente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$8.call(Unknown Source)
+	at VV - Flujo Web.run(VV - Flujo Web:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634658412018.run(TempTestSuite1634658412018.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Volve/Flujo 1/div_Siguiente' located by '//div[@id='__next']/div[2]/div/div/div[4]/a[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-10-19 12:47:03 - [TEST_CASE][FAILED] - Test Cases/Volve/VV - Flujo Web: Test Cases/Volve/VV - Flujo Web FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Volve/Flujo 1/div_Siguiente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$8.call(Unknown Source)
+	at VV - Flujo Web.run(VV - Flujo Web:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634658412018.run(TempTestSuite1634658412018.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Volve/Flujo 1/div_Siguiente' located by '//div[@id='__next']/div[2]/div/div/div[4]/a[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-10-19 12:47:03 - [TEST_STEP][PASSED] - currentPage = getUrl(): Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-19 12:47:03 - [MESSAGE][PASSED] - Current window's url is: 'https://picandocodigo.github.io/ci_js/'
+
+2021-10-19 12:47:03 - [TEST_STEP][PASSED] - currentTab = getWindowIndex(): Current window's index is: 0
+
+2021-10-19 12:47:03 - [MESSAGE][PASSED] - Current window's index is: 0
+
+2021-10-19 12:47:03 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2021-10-19 12:47:03 - [TEST_STEP][PASSED] - js = driver: null
+
+2021-10-19 12:47:03 - [TEST_STEP][PASSED] - js.executeScript("window.open();"): null
+
+2021-10-19 12:47:03 - [TEST_STEP][PASSED] - switchToWindowIndex(currentTab + 1): Switched to window with index: '1'
+
+2021-10-19 12:47:03 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2021-10-19 12:47:03 - [TEST_STEP][PASSED] - navigateToUrl(Volve): Navigate to 'https://dev-www.volve.com.uy' successfully
+
+2021-10-19 12:47:07 - [MESSAGE][PASSED] - Navigate to 'https://dev-www.volve.com.uy' successfully
+
+2021-10-19 12:47:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Inicio/button_Quiero intentarlo"), STOP_ON_FAILURE): Object: 'Object Repository/Volve/Inicio/button_Quiero intentarlo' is clicked on
+
+2021-10-19 12:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Inicio/button_Quiero intentarlo' is clicked on
+
+2021-10-19 12:47:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-10-19 12:47:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-10-19 12:47:08 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Inicio/button_Comenzar")): Object: 'Object Repository/Volve/Inicio/button_Comenzar' is clicked on
+
+2021-10-19 12:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Inicio/button_Comenzar' is clicked on
+
+2021-10-19 12:47:13 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 1/input_Cedula"), cedulaRandom): Text '94429147' is set on object 'Object Repository/Volve/Flujo 1/input_Cedula'
+
+2021-10-19 12:47:15 - [MESSAGE][PASSED] - Text '94429147' is set on object 'Object Repository/Volve/Flujo 1/input_Cedula'
+
+2021-10-19 12:47:15 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 1/input_Celular"), findTestData("DatosUsuario").getValue(2, 3)): Text '94040738' is set on object 'Object Repository/Volve/Flujo 1/input_Celular'
+
+2021-10-19 12:47:16 - [MESSAGE][PASSED] - Text '94040738' is set on object 'Object Repository/Volve/Flujo 1/input_Celular'
+
+2021-10-19 12:47:16 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 1/input_Telefono"), findTestData("DatosUsuario").getValue(2, 4)): Text '22222222' is set on object 'Object Repository/Volve/Flujo 1/input_Telefono'
+
+2021-10-19 12:47:16 - [MESSAGE][PASSED] - Text '22222222' is set on object 'Object Repository/Volve/Flujo 1/input_Telefono'
+
+2021-10-19 12:47:16 - [TEST_STEP][PASSED] - setText(findTestObject("Volve/Flujo 1/input_TelefonoContacto"), findTestData("DatosUsuario").getValue(2, 5)): Text '94123123' is set on object 'Object Repository/Volve/Flujo 1/input_TelefonoContacto'
+
+2021-10-19 12:47:17 - [MESSAGE][PASSED] - Text '94123123' is set on object 'Object Repository/Volve/Flujo 1/input_TelefonoContacto'
+
+2021-10-19 12:47:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Volve/Flujo 1/select_RelacionContacto"), "Friend", false): All options with value 'Friend' are selected in object 'Object Repository/Volve/Flujo 1/select_RelacionContacto' 
+
+2021-10-19 12:47:18 - [MESSAGE][PASSED] - All options with value 'Friend' are selected in object 'Object Repository/Volve/Flujo 1/select_RelacionContacto' 
+
+2021-10-19 12:47:18 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Volve/Flujo 1/input_TyC")): Object: 'Object Repository/Volve/Flujo 1/input_TyC' is clicked on
+
+2021-10-19 12:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Volve/Flujo 1/input_TyC' is clicked on
+
+2021-10-19 12:47:19 - [TEST_STEP][FAILED] - enhancedClick(findTestObject("Volve/Flujo 1/div_Siguiente")): Unable to click on object 'Object Repository/Volve/Flujo 1/div_Siguiente' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Volve/Flujo 1/div_Siguiente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$8.call(Unknown Source)
+	at VV - Flujo Web.run(VV - Flujo Web:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634658412018.run(TempTestSuite1634658412018.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Volve/Flujo 1/div_Siguiente' located by '//div[@id='__next']/div[2]/div/div/div[4]/a[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$8.call(Unknown Source)
+	at Script1634657370185.run(Script1634657370185.groovy:71)
+	... 13 more
+)
+
+2021-10-19 12:47:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__next']/div[2]/div/div/div[4]/a[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-10-19 12:47:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Volve/Flujo 1/div_Siguiente' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Volve/Flujo 1/div_Siguiente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$8.call(Unknown Source)
+	at VV - Flujo Web.run(VV - Flujo Web:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634658412018.run(TempTestSuite1634658412018.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Volve/Flujo 1/div_Siguiente' located by '//div[@id='__next']/div[2]/div/div/div[4]/a[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$8.call(Unknown Source)
+	at Script1634657370185.run(Script1634657370185.groovy:71)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211019_124652\\Primera Venta\\Volv\u00E9\\20211019_124652\\1634658471084.png]]]]></system-out>
+         <system-err><![CDATA[2021-10-19 12:47:03 - [TEST_CASE][FAILED] - Test Cases/Volve/VV - Flujo Web: Test Cases/Volve/VV - Flujo Web FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Volve/Flujo 1/div_Siguiente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$8.call(Unknown Source)
+	at VV - Flujo Web.run(VV - Flujo Web:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634658412018.run(TempTestSuite1634658412018.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Volve/Flujo 1/div_Siguiente' located by '//div[@id='__next']/div[2]/div/div/div[4]/a[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-19 12:46:59 - [TEST_SUITE][FAILED] - Volvé: Test Cases/Volve/VV - Flujo Web FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Volve/Flujo 1/div_Siguiente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$8.call(Unknown Source)
+	at VV - Flujo Web.run(VV - Flujo Web:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634658412018.run(TempTestSuite1634658412018.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Volve/Flujo 1/div_Siguiente' located by '//div[@id='__next']/div[2]/div/div/div[4]/a[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-10-19 12:46:59 - [TEST_SUITE][FAILED] - Volvé: Test Cases/Volve/VV - Flujo Web FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Volve/Flujo 1/div_Siguiente'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.click(EnhancedClickKeyword.groovy:94)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword.execute(EnhancedClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.enhancedClick(WebUiBuiltInKeywords.groovy:646)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$enhancedClick$8.call(Unknown Source)
+	at VV - Flujo Web.run(VV - Flujo Web:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1634658412018.run(TempTestSuite1634658412018.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Volve/Flujo 1/div_Siguiente' located by '//div[@id='__next']/div[2]/div/div/div[4]/a[2]/div' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.doCall(EnhancedClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.EnhancedClickKeyword$_click_closure1.call(EnhancedClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

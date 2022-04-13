@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Cedulas_Prescoring_Arbusta</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>274219f6-7c79-41b3-b903-27dbd7bdb188</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password></password>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
+   <query>SELECT psi.legalId
+FROM processor_uy_pago_despues.PreScoringItem psi 
+WHERE psi.declaredIncome IS NOT NULL 
+AND psi.declaredIncome > '15000'
+AND psi.minAmount IS NOT NULL 
+AND psi.scoringDate >= DATE_ADD(NOW(), INTERVAL -30 DAY)
+LIMIT 25;</query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <user></user>
+   <usingGlobalDBSetting>true</usingGlobalDBSetting>
+</DataFileEntity>

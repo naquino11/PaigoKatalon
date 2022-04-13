@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Credito Uruguayo" time="0.302" tests="2" failures="0" errors="2">
+   <testsuite name="Credito Uruguayo" tests="2" failures="0" errors="2" time="0.302" skipped="0" timestamp="2021-10-27 13:01:30" hostname="nicolas.aquino - ip-192-168-0-142.ec2.internal" id="Test Suites/Primera Venta/Credito Uruguayo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211027_130115\\Primera Venta\\Credito Uruguayo\\20211027_130116"/>
+         <property name="logFiles" value="C:\\Users\\nicolas.aquino\\Katalon Studio\\Paigo\\Reports\\20211027_130115\\Primera Venta\\Credito Uruguayo\\20211027_130116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nicolas.aquino - ip-192-168-0-142.ec2.internal"/>
+         <property name="hostAddress" value="192.168.0.142"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/General/Generar Cedula Random" time="0.029" classname="Test Cases/General/Generar Cedula Random" status="ERROR">
+         <error type="ERROR" message="Test Cases/General/Generar Cedula Random has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350490960.groovy: 34: unexpected char: '\' @ line 34, column 25.
+   WebUI.takeScreenshot(&quot;C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\1_CedulaGenerada.jpg&quot;)
+                           ^
+
+1 error
+"/>
+         <system-out><![CDATA[2021-10-27 13:01:30 - [TEST_CASE][ERROR] - Test Cases/General/Generar Cedula Random: Test Cases/General/Generar Cedula Random has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350490960.groovy: 34: unexpected char: '\' @ line 34, column 25.
+   WebUI.takeScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\1_CedulaGenerada.jpg")
+                           ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2021-10-27 13:01:30 - [TEST_CASE][ERROR] - Test Cases/General/Generar Cedula Random: Test Cases/General/Generar Cedula Random has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350490960.groovy: 34: unexpected char: '\' @ line 34, column 25.
+   WebUI.takeScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\1_CedulaGenerada.jpg")
+                           ^
+
+1 error]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreditoUruguayo/CU - Flujo Web" time="0.025" classname="Test Cases/CreditoUruguayo/CU - Flujo Web" status="ERROR">
+         <error type="ERROR" message="Test Cases/CreditoUruguayo/CU - Flujo Web has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350490998.groovy: 158: unexpected char: '\' @ line 158, column 33.
+   WebUI.takeFullPageScreenshot(&quot;C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoCreditoUruguayo.jpg&quot;)
+                                   ^
+
+1 error
+"/>
+         <system-out><![CDATA[2021-10-27 13:01:30 - [TEST_CASE][ERROR] - Test Cases/CreditoUruguayo/CU - Flujo Web: Test Cases/CreditoUruguayo/CU - Flujo Web has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350490998.groovy: 158: unexpected char: '\' @ line 158, column 33.
+   WebUI.takeFullPageScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoCreditoUruguayo.jpg")
+                                   ^
+
+1 error]]></system-out>
+         <system-err><![CDATA[2021-10-27 13:01:30 - [TEST_CASE][ERROR] - Test Cases/CreditoUruguayo/CU - Flujo Web: Test Cases/CreditoUruguayo/CU - Flujo Web has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350490998.groovy: 158: unexpected char: '\' @ line 158, column 33.
+   WebUI.takeFullPageScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\2_FlujoCreditoUruguayo.jpg")
+                                   ^
+
+1 error]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-10-27 13:01:30 - [TEST_SUITE][ERROR] - Credito Uruguayo: Test Cases/General/Generar Cedula Random has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350490960.groovy: 34: unexpected char: '\' @ line 34, column 25.
+   WebUI.takeScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\1_CedulaGenerada.jpg")
+                           ^
+
+1 error]]></system-out>
+      <system-err><![CDATA[2021-10-27 13:01:30 - [TEST_SUITE][ERROR] - Credito Uruguayo: Test Cases/General/Generar Cedula Random has ERROR(s).
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+script1635350490960.groovy: 34: unexpected char: '\' @ line 34, column 25.
+   WebUI.takeScreenshot("C:\Users\nicolas.aquino\Desktop\Trabajo\Screenshots Katalon\$GlobalVariable.cedulaRandom\1_CedulaGenerada.jpg")
+                           ^
+
+1 error]]></system-err>
+   </testsuite>
+</testsuites>

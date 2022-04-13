@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CU - Flujo Web</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>944bf6b8-a335-4bff-9a00-876da09efac4</testCaseGuid>
+   <variable>
+      <defaultValue>'94040738'</defaultValue>
+      <description></description>
+      <id>7e97a163-b672-4220-8d92-cb91d674b8b4</id>
+      <masked>false</masked>
+      <name>celular</name>
+   </variable>
+   <variable>
+      <defaultValue>'nicolas.aquino@paigo.com.uyy'</defaultValue>
+      <description></description>
+      <id>6b76068f-4808-4b72-bef9-4409f0095de0</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Nicolas'</defaultValue>
+      <description></description>
+      <id>8288fab0-2852-41bb-99e5-022cdb489c12</id>
+      <masked>false</masked>
+      <name>nombre</name>
+   </variable>
+   <variable>
+      <defaultValue>'Aquino'</defaultValue>
+      <description></description>
+      <id>df0370b9-0b1b-4f85-bf2b-5fa92ffe58cd</id>
+      <masked>false</masked>
+      <name>apellido</name>
+   </variable>
+   <variable>
+      <defaultValue>'Calle falsa 123'</defaultValue>
+      <description></description>
+      <id>003dbbb7-af81-4e41-8ce0-4a6bbcc04cda</id>
+      <masked>false</masked>
+      <name>direccion</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234567'</defaultValue>
+      <description></description>
+      <id>59c89c26-c6f3-4cc2-870b-9ec8b8bb6b23</id>
+      <masked>false</masked>
+      <name>cuentaBancaria</name>
+   </variable>
+   <variable>
+      <defaultValue>'paigo123'</defaultValue>
+      <description></description>
+      <id>fd80eeed-07ce-456f-a01f-883b7cb2e4e7</id>
+      <masked>true</masked>
+      <name>contrasena</name>
+   </variable>
+</TestCaseEntity>

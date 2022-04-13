@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Desembolso</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6582bf0-58e6-4f22-865a-a44288fedf3d</testCaseGuid>
+   <variable>
+      <defaultValue>'CreditoUruguayo'</defaultValue>
+      <description></description>
+      <id>d93c5e5c-dff0-4d23-8c37-3f5c074a67fc</id>
+      <masked>false</masked>
+      <name>CU</name>
+   </variable>
+   <variable>
+      <defaultValue>'UinUin'</defaultValue>
+      <description></description>
+      <id>08737d51-a4e2-4505-8cb0-fb7551f52c54</id>
+      <masked>false</masked>
+      <name>UU</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pym'</defaultValue>
+      <description></description>
+      <id>1e787a0f-35c6-4ff7-92ec-f05431612e96</id>
+      <masked>false</masked>
+      <name>PYM</name>
+   </variable>
+   <variable>
+      <defaultValue>'Volvé'</defaultValue>
+      <description></description>
+      <id>7e5e78a3-88ee-4073-b407-b16d4363d3a6</id>
+      <masked>false</masked>
+      <name>VV</name>
+   </variable>
+</TestCaseEntity>

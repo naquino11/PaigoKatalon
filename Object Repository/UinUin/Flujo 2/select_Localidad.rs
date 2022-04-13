@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Localidad</name>
+   <tag></tag>
+   <elementGuidId>50bbd260-59e8-4513-913c-8f91e63c2291</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/section/div/div/div[2]/form/div[3]/div[2]/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AbrojalAlboradaAmarilloArroyo BlancoArroyo SauzalAtaquesBarra De AtaquesBarrio RecreoBatovíBañado Del ChajáBerrutíBlanquillosBuena Orden Al NorteBuena UniónCapón AltoCaraguatáCarpinteríaCerrilladaCerro AlegreCerro Blanco De CuñapirúCerro CaqueiroCerro ChapeuCerro ChatoCerro PeladoCerro Pelado Al EsteCerro SolitoCerros BlancosCerros De La CaleraChirca De CaraguatáCoronillaCoronilla De CorralesCostas De CuñapirúCruz De San PedroCuchilla De Tres CerrosCuchilla De YaguaríCuchilla ManguerasCurticeirasCurtuméCuñapirúEl CeiboEl PalmitoGuaviyúHospitalLa CaillavaLa CaleraLa CerrilladaLa ChilcaLa PalmaLa PedreraLagos Del NorteLagunónLas FloresLaurelesLos PotrerosLunarejoMandubíManuel DiazMasollerMinas De CorralesMinas De Cuñapirú (Usinas)Minas De ZapucayMoironesParada MedinaPaso AmarilloPaso AtaquesPaso CasildoPaso De ArrieraPaso De AtaquesPaso De FronteraPaso De GairéPaso De La ArenaPaso De La CaleraPaso Del LagunónPaso Del PuertoPaso Del TapadoPaso LapuentePaso SerpaPiedras BlancasPlatónPueblo De Los SantosPueblo SocorroPuntas De AbrojalPuntas De CorralesPuntas De CuñapirúPuntas Del SauzalPuntas Del YaguaríRincón De AmarilloRincón De DinizRincón De Los CastillosRincón De MoraesRincón De RodríguezRincón De RolandRincón De Tres CerrosRincón De YaguaríRiveraSan GregorioSanta ErnestinaSanta IsabelSanta TeresaSauce De BatovíSauzalSegarraTranquerasTres CerrosTres CrucesTres PuentesVichaderoVilla IndartYaguaríZanja HondaZanja Honda De Tranqueras</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[1]/section[@class=&quot;main-container&quot;]/div[@class=&quot;container-md&quot;]/div[@class=&quot;contentContainer row&quot;]/div[@class=&quot;second-column col-sm-9&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-sm-12&quot;]/select[@class=&quot;form-control&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/section/div/div/div[2]/form/div[3]/div[2]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Localidad'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departamento'])[1]/following::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ingresos mensuales'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$U líquidos sin aportes'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/select</value>
+   </webElementXpaths>
+</WebElementEntity>

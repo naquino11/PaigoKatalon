@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CreditoUruguayo,Chrome 94.0.4606.81,,,2021-10-18 16:32:45,2021-10-18 16:33:15,"29,979s",FAILED
+,,,,,,,
+Test Cases/0_Generales/Generar cedula random,Chrome 94.0.4606.81,,,2021-10-18 16:32:46,2021-10-18 16:32:49,"3,646s",PASSED
+"openBrowser(""https://picandocodigo.github.io/ci_js/"")",Chrome 94.0.4606.81,,,2021-10-18 16:32:46,2021-10-18 16:32:48,"2,239s",PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-18 16:32:48,2021-10-18 16:32:48,"0,166s",PASSED
+"click(findTestObject(""Generador de cedulas/botonGenerar""))",Chrome 94.0.4606.81,,,2021-10-18 16:32:48,2021-10-18 16:32:49,"0,468s",PASSED
+"cedulaRandom = getAttribute(findTestObject(""Generador de cedulas/obtenerCedulaRandom""), ""value"")",Chrome 94.0.4606.81,,,2021-10-18 16:32:49,2021-10-18 16:32:49,"0,482s",PASSED
+,,,,,,,
+Test Cases/CreditoUruguayo/CreditoUruguayo,Chrome 94.0.4606.81,,,2021-10-18 16:32:49,2021-10-18 16:33:15,"26,071s",FAILED
+"openBrowser(""https://picandocodigo.github.io/ci_js/"")",Chrome 94.0.4606.81,,,2021-10-18 16:32:50,2021-10-18 16:32:52,"1,970s",PASSED
+maximizeWindow(),Chrome 94.0.4606.81,,,2021-10-18 16:32:52,2021-10-18 16:32:52,"0,146s",PASSED
+"click(findTestObject(""Generador de cedulas/botonGenerar""))",Chrome 94.0.4606.81,,,2021-10-18 16:32:52,2021-10-18 16:32:52,"0,331s",PASSED
+"cedulaRandom = getAttribute(findTestObject(""Generador de cedulas/obtenerCedulaRandom""), ""value"")",Chrome 94.0.4606.81,,,2021-10-18 16:32:52,2021-10-18 16:32:52,"0,331s",PASSED
+currentPage = getUrl(),Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:32:52,2021-10-18 16:32:53,"0,016s",PASSED
+currentTab = getWindowIndex(),Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:32:53,2021-10-18 16:32:53,"0,021s",PASSED
+driver = getWebDriver(),Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:32:53,2021-10-18 16:32:53,"0,010s",PASSED
+js = driver,Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:32:53,2021-10-18 16:32:53,"0,016s",PASSED
+"js.executeScript(""window.open();"")",Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:32:53,2021-10-18 16:32:53,"0,029s",PASSED
+switchToWindowIndex(currentTab + 1),Chrome 94.0.4606.81,Javascript para abrir nueva pestaña,,2021-10-18 16:32:53,2021-10-18 16:32:53,"0,042s",PASSED
+navigateToUrl(CreditoUruguayo),Chrome 94.0.4606.81,,,2021-10-18 16:32:53,2021-10-18 16:32:56,"3,694s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Inicio/a_InicioFlujo""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:32:56,2021-10-18 16:32:57,"0,312s",PASSED
+"enhancedClick(findTestObject(""CreditoUruguayo/Inicio/a_InicioFlujo""))",Chrome 94.0.4606.81,,,2021-10-18 16:32:57,2021-10-18 16:32:57,"0,360s",PASSED
+"waitForElementPresent(findTestObject(""CreditoUruguayo/Flujo 1/input_Cedula""), 0)",Chrome 94.0.4606.81,,,2021-10-18 16:32:57,2021-10-18 16:32:58,"0,993s",PASSED
+"setText(findTestObject(""CreditoUruguayo/Flujo 1/input_Cedula""), cedulaRandom)",Chrome 94.0.4606.81,,,2021-10-18 16:32:58,2021-10-18 16:33:15,"17,279s",FAILED

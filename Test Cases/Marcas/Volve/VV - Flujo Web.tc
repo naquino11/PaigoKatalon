@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VV - Flujo Web</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>72a44daa-1af0-4b71-a1d9-486bd511b52e</testCaseGuid>
+   <variable>
+      <defaultValue>'094040738'</defaultValue>
+      <description></description>
+      <id>85f4abcb-ffa5-4c32-866b-b41f948aa75b</id>
+      <masked>false</masked>
+      <name>celular</name>
+   </variable>
+   <variable>
+      <defaultValue>'094123123'</defaultValue>
+      <description></description>
+      <id>acb382c1-6651-46ae-abdb-3574c954ea55</id>
+      <masked>false</masked>
+      <name>telefonoContacto</name>
+   </variable>
+</TestCaseEntity>
